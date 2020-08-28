@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/yaolh1995/LionUI/issues"
   },
-  "homepage": "https://github.com/yaolh1995/LionUI#readme"
+  "homepage": "https://github.com/yaolh1995/LionUI#readme",
+  "dependencies": {
+    "vue": "^2.6.12"
+  }
 }
