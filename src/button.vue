@@ -1,16 +1,20 @@
 <template>
   <!--  单文件组件-->
   <button class="g-button" :class="{[`icon-${iconPosition}`]:true}">
-    <svg v-if="icon" class="icon">
-      <use :xlink:href=`#icon-${icon}`></use>
-    </svg>
+    <g-icon v-if="icon" :name="icon"></g-icon>
     <div class="content"><slot></slot></div>
   </button>
 </template>
 <script>
 export default {
-  props: ["icon","iconPosition"]
-
+ // props: ["icon","iconPosition"]
+  props:{
+    icon:{},
+    iconPosition:{
+      type:String,
+      default:"left",
+    }
+  }
 }
 </script>
 <style lang="scss">
@@ -26,7 +30,7 @@ export default {
   background: var(--button-bg);
   display: inline-flex;justify-content: center;align-items: center;
   &:hover {
-    border-color: var(--bo rder-color-hover);
+    border-color: var(--border-color-hover);
   }
   &:active {
     background-color: var(--button-active-bg);
