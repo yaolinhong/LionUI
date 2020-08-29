@@ -1,9 +1,13 @@
 language: node_js
 node_js:
-  - "12.18.3"
+  - "12"
+  - "10"
+  - "14"
+  - "8"
 addons:
   chrome: stable
 sudo: required
+script: yarn precommit
 before_script:
   - "sudo chown root /opt/google/chrome/chrome-sandbox"
   - "sudo chmod 4755 /opt/google/chrome/chrome-sandbox"
