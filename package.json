@@ -4,7 +4,7 @@
   "description": "UI框架",
   "main": "index.js",
   "scripts": {
-    "dev-test":"concurrently \"parcel watch test/* --no-cache\"  \" karma start\"",
+    "dev-test": "concurrently \"parcel watch test/* --no-cache\"  \" karma start\"",
     "test": "parcel build test/* --no-minify && karma start --single-run"
   },
   "repository": {
@@ -25,7 +25,8 @@
     "chai-spies": "^1.0.0",
     "parcel": "^1.12.4",
     "vue": "^2.6.12",
-    "vue-hot-reload-api": "^2.3.4"
+    "vue-hot-reload-api": "^2.3.4",
+    "yarn": "^1.22.5"
   },
   "devDependencies": {
     "@vue/component-compiler-utils": "^3.2.0",
