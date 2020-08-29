@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f1c37966-d7e9-4866-840e-685caa734674" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/button.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button-group.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button-group.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectId" id="1giImJ0Xh7NQybs219C3slHLZNI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.12.54" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet.css" />
+    <property name="ts.external.directory.path" value="C:\JetBrains\WebStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\1\Desktop\LionUI" />
+      <recent name="C:\Users\1\Desktop\LionUI\test" />
+      <recent name="C:\Users\1\Desktop\LionUI\dist" />
+      <recent name="C:\Users\1\Desktop\LionUI\node_modules" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\1\Desktop\LionUI" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\1\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1c37966-d7e9-4866-840e-685caa734674" name="Default Changelist" comment="" />
+      <created>1598591143988</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598591143988</updated>
+      <workItem from="1598591145050" duration="2350000" />
+      <workItem from="1598594202454" duration="3085000" />
+      <workItem from="1598612974620" duration="2856000" />
+      <workItem from="1598615864787" duration="880000" />
+      <workItem from="1598616764023" duration="8223000" />
+      <workItem from="1598662251756" duration="7136000" />
+      <workItem from="1598675860615" duration="9626000" />
+      <workItem from="1598697186689" duration="2766000" />
+      <workItem from="1598705761964" duration="5617000" />
+    </task>
+    <task id="LOCAL-00001" summary="npm install vue">
+      <created>1598591260174</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598591260174</updated>
+    </task>
+    <task id="LOCAL-00002" summary="按钮基本样式">
+      <created>1598598190697</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598598190697</updated>
+    </task>
+    <task id="LOCAL-00003" summary="改为vue组件；并使用vue打包；">
+      <created>1598616425413</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598616425413</updated>
+    </task>
+    <task id="LOCAL-00004" summary="g-button添加icon、icon-position属性">
+      <created>1598627293175</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598627293175</updated>
+    </task>
+    <task id="LOCAL-00005" summary="将svg代码整理到ICON.vue">
+      <created>1598664252798</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598664252798</updated>
+    </task>
+    <task id="LOCAL-00006" summary="添加g-button的click事件">
+      <created>1598669860301</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598669860301</updated>
+    </task>
+    <task id="LOCAL-00007" summary="安装chai">
+      <created>1598674801739</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598674801739</updated>
+    </task>
+    <task id="LOCAL-00008" summary="完成button-group">
+      <created>1598679385474</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1598679385474</updated>
+    </task>
+    <task id="LOCAL-00009" summary="使用chai .expect 添加四个测试用例">
+      <created>1598681653463</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1598681653463</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TerminalProjectNonSharedOptionsProvider">
+    <option name="shellPath" value="C:\software\cmder\vendor\git-for-windows\bin\bash.exe" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="npm install vue" />
+    <MESSAGE value="按钮基本样式" />
+    <MESSAGE value="改为vue组件；并使用vue打包；" />
+    <MESSAGE value="g-button添加icon、icon-position属性" />
+    <MESSAGE value="将svg代码整理到ICON.vue" />
+    <MESSAGE value="添加g-button的click事件" />
+    <MESSAGE value="安装chai" />
+    <MESSAGE value="完成button-group" />
+    <MESSAGE value="使用chai .expect 添加四个测试用例" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用chai .expect 添加四个测试用例" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1090" y="255" key="#Inspections" timestamp="1598679135756">
+      <screen x="0" y="0" width="1951" height="1152" />
+    </state>
+    <state x="1090" y="255" key="#Inspections/0.0.1951.1152@0.0.1951.1152" timestamp="1598679135756" />
+    <state x="690" y="371" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598676044984">
+      <screen x="0" y="0" width="1951" height="1152" />
+    </state>
+    <state x="690" y="371" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1951.1152@0.0.1951.1152" timestamp="1598676044984" />
+    <state x="1089" y="88" key="CommitChangelistDialog2" timestamp="1598681652998">
+      <screen x="0" y="0" width="1951" height="1152" />
+    </state>
+    <state x="1089" y="88" key="CommitChangelistDialog2/0.0.1951.1152@0.0.1951.1152" timestamp="1598681652998" />
+    <state x="899" y="259" width="438" height="515" key="FileChooserDialogImpl" timestamp="1598593719925">
+      <screen x="0" y="0" width="1951" height="1152" />
+    </state>
+    <state x="899" y="259" width="438" height="515" key="FileChooserDialogImpl/0.0.1951.1152@0.0.1951.1152" timestamp="1598593719925" />
+    <state width="953" height="324" key="GridCell.Tab.0.bottom" timestamp="1598675849541">
+      <screen x="0" y="0" width="1951" height="1152" />
+    </state>
+    <state width="953" height="324" key="GridCell.Tab.0.bottom/0.0.1951.1152@0.0.1951.1152" timestamp="1598675849541" />
+    <state width="953" height="324" key="GridCell.Tab.0.center" timestamp="1598675849541">
+      <screen x="0" y="0" width="1951" height="1152" />
+    </state>
+    <state width="953" height="324" key="GridCell.Tab.0.center/0.0.1951.1152@0.0.1951.1152" timestamp="1598675849541" />
+    <state width="953" height="324" key="GridCell.Tab.0.left" timestamp="1598675849541">
+      <screen x="0" y="0" width="1951" height="1152" />
+    </state>
+    <state width="953" height="324" key="GridCell.Tab.0.left/0.0.1951.1152@0.0.1951.1152" timestamp="1598675849541" />
+    <state width="953" height="324" key="GridCell.Tab.0.right" timestamp="1598675849541">
+      <screen x="0" y="0" width="1951" height="1152" />
+    </state>
+    <state width="953" height="324" key="GridCell.Tab.0.right/0.0.1951.1152@0.0.1951.1152" timestamp="1598675849541" />
+    <state x="233" y="206" key="SettingsEditor" timestamp="1598623963321">
+      <screen x="0" y="0" width="1951" height="1152" />
+    </state>
+    <state x="233" y="206" key="SettingsEditor/0.0.1951.1152@0.0.1951.1152" timestamp="1598623963321" />
+    <state x="81" y="312" key="Vcs.Push.Dialog.v2" timestamp="1598664330766">
+      <screen x="0" y="0" width="1951" height="1152" />
+    </state>
+    <state x="81" y="312" key="Vcs.Push.Dialog.v2/0.0.1951.1152@0.0.1951.1152" timestamp="1598664330766" />
+    <state x="1120" y="272" key="run.anything.popup" timestamp="1598697705041">
+      <screen x="0" y="0" width="1951" height="1152" />
+    </state>
+    <state x="1120" y="272" key="run.anything.popup/0.0.1951.1152@0.0.1951.1152" timestamp="1598697705041" />
+    <state x="150" y="258" width="672" height="678" key="search.everywhere.popup" timestamp="1598591231089">
+      <screen x="0" y="0" width="1951" height="1152" />
+    </state>
+    <state x="150" y="258" width="672" height="678" key="search.everywhere.popup/0.0.1951.1152@0.0.1951.1152" timestamp="1598591231089" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/button-group.vue</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
