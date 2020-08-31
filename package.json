@@ -1,11 +1,11 @@
 {
-  "name": "lionui",
-  "version": "0.0.1",
+  "name": "lionui-test",
+  "version": "0.0.3",
   "description": "UI框架",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "dev-test": "concurrently \"parcel watch test/* --no-cache\"  \" karma start\"",
-    "test": "parcel build test/* --no-minify && karma start --single-run"
+    "dev-test": "concurrently \"parcel watch test/* --no-cache --no-minify\"  \" karma start\"",
+    "test": "parcel build test/* --no-cache --no-minify && karma start --single-run"
   },
   "repository": {
     "type": "git",
