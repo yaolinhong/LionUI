@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1c37966-d7e9-4866-840e-685caa734674" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.cache/50/b0589c748105bbdd5cd26d1769bb4e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/74/159f19e943e30be2bbe8e0522735e5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/98/ec7953672b06ee8167ef488798cd85.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/c3/54f085fc6686712c9c9de1036f2496.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parcel.sh" beforeDir="false" afterPath="$PROJECT_DIR$/parcel.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +70,7 @@
       <workItem from="1598705761964" duration="9672000" />
       <workItem from="1598759346405" duration="2556000" />
       <workItem from="1598790929460" duration="2891000" />
-      <workItem from="1598843416796" duration="3240000" />
+      <workItem from="1598843416796" duration="5897000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1598591260174</created>
