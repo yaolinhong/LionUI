@@ -1,3 +1,3 @@
 rm -rf dist
 rm -rf .cache
-parcel index.html --no-cache --no-minify
+parcel index.html--no-minify --no-cache

@@ -1,9 +1,10 @@
 {
   "name": "lionui-test",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "UI框架",
   "main": "dist/index.js",
   "scripts": {
+    "start": "parcel index.html --no-cache",
     "dev-test": "concurrently \"parcel watch test/* --no-cache --no-minify\"  \" karma start\"",
     "test": "parcel build test/* --no-cache --no-minify && karma start --single-run"
   },
