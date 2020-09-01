@@ -1,3 +1,3 @@
 rm -rf dist
 rm -rf .cache
-parcel index.html--no-minify --no-cache
+npx parcel build index.js --no-minify
