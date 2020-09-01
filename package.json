@@ -1,6 +1,6 @@
 {
   "name": "lionui-test",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "UI框架",
   "main": "dist/index.js",
   "scripts": {
