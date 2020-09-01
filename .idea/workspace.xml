@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f1c37966-d7e9-4866-840e-685caa734674" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parcel.sh" beforeDir="false" afterPath="$PROJECT_DIR$/parcel.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +68,8 @@
       <workItem from="1598705761964" duration="9672000" />
       <workItem from="1598759346405" duration="2556000" />
       <workItem from="1598790929460" duration="2891000" />
-      <workItem from="1598843416796" duration="5897000" />
+      <workItem from="1598843416796" duration="9193000" />
+      <workItem from="1598921817629" duration="331000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1598591260174</created>
@@ -169,10 +168,10 @@
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
     <state x="1090" y="255" key="#Inspections/0.0.1951.1152@0.0.1951.1152" timestamp="1598679135756" />
-    <state x="690" y="371" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598712624067">
+    <state x="690" y="371" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598885240020">
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
-    <state x="690" y="371" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1951.1152@0.0.1951.1152" timestamp="1598712624067" />
+    <state x="690" y="371" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1951.1152@0.0.1951.1152" timestamp="1598885240020" />
     <state x="1089" y="88" key="CommitChangelistDialog2" timestamp="1598712953340">
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
