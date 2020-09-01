@@ -12,7 +12,8 @@
 <script>
 import  Icon from "./icon.vue"
 export default {
- // props: ["icon","iconPosition"]
+  name:"g-button",
+  // props: ["icon","iconPosition"]
   components: {
     'g-icon': Icon
   },

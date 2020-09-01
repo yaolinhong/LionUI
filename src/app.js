@@ -2,10 +2,11 @@ import Vue from 'vue/dist/vue.js';
 import Button from './button.vue';
 import Icon from './icon'
 import ButtonGroup from "./button-group.vue"
-
-Vue.component('g-button', Button)
+import Input from "./input.vue"
+    Vue.component('g-button', Button)
 Vue.component('g-icon', Icon)
 Vue.component("g-button-group", ButtonGroup)
+Vue.component("g-input", Input)
 
 new Vue({
     el: "#app",
@@ -16,6 +17,7 @@ new Vue({
     }
 })
 //单元测试
+
 import chai from 'chai'
 import spies from "chai-spies";
 chai.use(spies)

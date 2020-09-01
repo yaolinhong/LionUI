@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1c37966-d7e9-4866-840e-685caa734674" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/input.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/26/9fe345127c79352c0a409132b51598.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/26/9fe345127c79352c0a409132b51598.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/50/b0589c748105bbdd5cd26d1769bb4e.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/50/b0589c748105bbdd5cd26d1769bb4e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/74/159f19e943e30be2bbe8e0522735e5.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/74/159f19e943e30be2bbe8e0522735e5.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button-group.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button-group.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/icon.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +78,7 @@
       <workItem from="1598759346405" duration="2556000" />
       <workItem from="1598790929460" duration="2891000" />
       <workItem from="1598843416796" duration="9193000" />
-      <workItem from="1598921817629" duration="10006000" />
+      <workItem from="1598921817629" duration="11350000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1598591260174</created>
@@ -222,7 +231,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/button-group.vue</url>
-          <line>29</line>
+          <line>30</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
