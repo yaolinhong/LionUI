@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1c37966-d7e9-4866-840e-685caa734674" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/input.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/input.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/svg.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/svg.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +38,7 @@
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.54" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.CSS" />
     <property name="ts.external.directory.path" value="C:\JetBrains\WebStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -45,6 +51,41 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\1\Desktop\LionUI" />
     </key>
+  </component>
+  <component name="RunManager" selected="Karma.事件.支持 change/input/focus/blur 事件">
+    <configuration name="事件" type="JavaScriptTestRunnerKarma" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <karma-package-dir value="$PROJECT_DIR$/node_modules/karma" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file-path value="$PROJECT_DIR$/test/input.test.js" />
+      <test-names>
+        <test-name value="事件" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="事件.支持 change/input/focus/blur 事件" type="JavaScriptTestRunnerKarma" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <karma-package-dir value="$PROJECT_DIR$/node_modules/karma" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file-path value="$PROJECT_DIR$/test/input.test.js" />
+      <test-names>
+        <test-name value="事件" />
+        <test-name value="支持 change/input/focus/blur 事件" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Karma.事件.支持 change/input/focus/blur 事件" />
+        <item itemvalue="Karma.事件" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -71,6 +112,8 @@
       <workItem from="1598843416796" duration="9193000" />
       <workItem from="1598921817629" duration="11350000" />
       <workItem from="1598958071962" duration="558000" />
+      <workItem from="1599011381671" duration="13030000" />
+      <workItem from="1599026100324" duration="472000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1598591260174</created>
@@ -181,29 +224,67 @@
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
     <state x="1089" y="88" key="CommitChangelistDialog2/0.0.1951.1152@0.0.1951.1152" timestamp="1598712953340" />
-    <state x="899" y="259" width="438" height="515" key="FileChooserDialogImpl" timestamp="1598796273058">
+    <state x="899" y="259" width="438" height="515" key="FileChooserDialogImpl" timestamp="1599026360658">
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
+    <state x="899" y="259" key="FileChooserDialogImpl/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599026360658" />
     <state x="899" y="259" width="438" height="515" key="FileChooserDialogImpl/0.0.1951.1152@0.0.1951.1152" timestamp="1598796273058" />
-    <state width="953" height="324" key="GridCell.Tab.0.bottom" timestamp="1598675849541">
+    <state width="952" height="324" key="GridCell.Tab.0.bottom" timestamp="1599026084802">
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
+    <state width="952" height="324" key="GridCell.Tab.0.bottom/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599026084802" />
     <state width="953" height="324" key="GridCell.Tab.0.bottom/0.0.1951.1152@0.0.1951.1152" timestamp="1598675849541" />
-    <state width="953" height="324" key="GridCell.Tab.0.center" timestamp="1598675849541">
+    <state width="952" height="324" key="GridCell.Tab.0.center" timestamp="1599026084801">
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
+    <state width="952" height="324" key="GridCell.Tab.0.center/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599026084801" />
     <state width="953" height="324" key="GridCell.Tab.0.center/0.0.1951.1152@0.0.1951.1152" timestamp="1598675849541" />
-    <state width="953" height="324" key="GridCell.Tab.0.left" timestamp="1598675849541">
+    <state width="952" height="324" key="GridCell.Tab.0.left" timestamp="1599026084801">
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
+    <state width="952" height="324" key="GridCell.Tab.0.left/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599026084801" />
     <state width="953" height="324" key="GridCell.Tab.0.left/0.0.1951.1152@0.0.1951.1152" timestamp="1598675849541" />
-    <state width="953" height="324" key="GridCell.Tab.0.right" timestamp="1598675849541">
+    <state width="952" height="324" key="GridCell.Tab.0.right" timestamp="1599026084802">
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
+    <state width="952" height="324" key="GridCell.Tab.0.right/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599026084802" />
     <state width="953" height="324" key="GridCell.Tab.0.right/0.0.1951.1152@0.0.1951.1152" timestamp="1598675849541" />
-    <state x="233" y="206" key="SettingsEditor" timestamp="1598844277836">
+    <state width="952" height="324" key="GridCell.Tab.1.bottom" timestamp="1599026084802">
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
+    <state width="952" height="324" key="GridCell.Tab.1.bottom/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599026084802" />
+    <state width="952" height="324" key="GridCell.Tab.1.center" timestamp="1599026084802">
+      <screen x="0" y="0" width="1951" height="1152" />
+    </state>
+    <state width="952" height="324" key="GridCell.Tab.1.center/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599026084802" />
+    <state width="952" height="324" key="GridCell.Tab.1.left" timestamp="1599026084802">
+      <screen x="0" y="0" width="1951" height="1152" />
+    </state>
+    <state width="952" height="324" key="GridCell.Tab.1.left/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599026084802" />
+    <state width="952" height="324" key="GridCell.Tab.1.right" timestamp="1599026084802">
+      <screen x="0" y="0" width="1951" height="1152" />
+    </state>
+    <state width="952" height="324" key="GridCell.Tab.1.right/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599026084802" />
+    <state width="952" height="324" key="GridCell.Tab.4.bottom" timestamp="1599023403841">
+      <screen x="0" y="0" width="1951" height="1152" />
+    </state>
+    <state width="952" height="324" key="GridCell.Tab.4.bottom/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599023403841" />
+    <state width="952" height="324" key="GridCell.Tab.4.center" timestamp="1599023403841">
+      <screen x="0" y="0" width="1951" height="1152" />
+    </state>
+    <state width="952" height="324" key="GridCell.Tab.4.center/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599023403841" />
+    <state width="952" height="324" key="GridCell.Tab.4.left" timestamp="1599023403841">
+      <screen x="0" y="0" width="1951" height="1152" />
+    </state>
+    <state width="952" height="324" key="GridCell.Tab.4.left/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599023403841" />
+    <state width="952" height="324" key="GridCell.Tab.4.right" timestamp="1599023403841">
+      <screen x="0" y="0" width="1951" height="1152" />
+    </state>
+    <state width="952" height="324" key="GridCell.Tab.4.right/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599023403841" />
+    <state x="233" y="206" key="SettingsEditor" timestamp="1599016067355">
+      <screen x="0" y="0" width="1951" height="1152" />
+    </state>
+    <state x="233" y="206" key="SettingsEditor/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599016067355" />
     <state x="233" y="206" key="SettingsEditor/0.0.1951.1152@0.0.1951.1152" timestamp="1598844277836" />
     <state x="81" y="312" key="Vcs.Push.Dialog.v2" timestamp="1598664330766">
       <screen x="0" y="0" width="1951" height="1152" />
@@ -213,9 +294,10 @@
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
     <state x="1120" y="272" key="run.anything.popup/0.0.1951.1152@0.0.1951.1152" timestamp="1598697705041" />
-    <state x="150" y="258" width="672" height="678" key="search.everywhere.popup" timestamp="1598844272077">
+    <state x="150" y="258" width="672" height="678" key="search.everywhere.popup" timestamp="1599015960074">
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
+    <state x="150" y="258" width="672" height="678" key="search.everywhere.popup/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599015960074" />
     <state x="150" y="258" width="672" height="678" key="search.everywhere.popup/0.0.1951.1152@0.0.1951.1152" timestamp="1598844272077" />
   </component>
   <component name="XDebuggerManager">
@@ -228,5 +310,8 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LionUI$__change_input_focus_blur_.dat" NAME="事件.支持 change/input/focus/blur 事件 Coverage Results" MODIFIED="1599023421458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="KarmaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
