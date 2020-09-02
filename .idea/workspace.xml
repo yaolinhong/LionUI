@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1c37966-d7e9-4866-840e-685caa734674" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/input.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/input.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/input.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/svg.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/svg.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,14 +36,14 @@
     <property name="ts.external.directory.path" value="C:\JetBrains\WebStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\1\Desktop\LionUI" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\1\Desktop\LionUI" />
       <recent name="C:\Users\1\Desktop\LionUI\test" />
       <recent name="C:\Users\1\Desktop\LionUI\dist" />
       <recent name="C:\Users\1\Desktop\LionUI\node_modules" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\1\Desktop\LionUI" />
     </key>
   </component>
   <component name="RunManager" selected="Karma.事件.支持 change/input/focus/blur 事件">
@@ -224,6 +218,10 @@
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
     <state x="1089" y="88" key="CommitChangelistDialog2/0.0.1951.1152@0.0.1951.1152" timestamp="1598712953340" />
+    <state x="93" y="93" width="1766" height="966" key="DiffContextDialog" timestamp="1599033984841">
+      <screen x="0" y="0" width="1951" height="1152" />
+    </state>
+    <state x="93" y="93" width="1766" height="966" key="DiffContextDialog/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599033984841" />
     <state x="899" y="259" width="438" height="515" key="FileChooserDialogImpl" timestamp="1599026360658">
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
