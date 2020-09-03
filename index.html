@@ -27,37 +27,42 @@
         #app {
             margin: 20px
             }
+        .demo{
+            background-color: #ddd;
+            border: 1px solid #666;
+            height: 100px;
+            }
 
     </style>
 </head>
 <body>
 <div id="app">
     <div class="box">
-        offset=12
-        <g-row>
-            <g-col span="6" >6</g-col>
-            <g-col span="6" offset="12">6</g-col>
+        响应式
+        <g-row >
+            <g-col span="12" :pc="{span:12,offset:0}" ><div class="demo"></div></g-col>
+            <g-col span="6" offset="6" :pc="{span:12,offset:0}"><div class="demo"></div></g-col>
         </g-row>
         无gutter
         <g-row>
-            <g-col span="12">12</g-col>
-            <g-col span="6">6</g-col>
-            <g-col span="6">6</g-col>
+            <g-col span="12"><div class="demo"></div></g-col>
+            <g-col span="6"><div class="demo"></div></g-col>
+            <g-col span="6"><div class="demo"></div></g-col>
         </g-row>
         <g-row>
-            <g-col span="8" >8</g-col>
-            <g-col span="8" >8</g-col>
-            <g-col span="8" >8</g-col>
+            <g-col span="8" ><div class="demo"></div></g-col>
+            <g-col span="8" ><div class="demo"></div></g-col>
+            <g-col span="8" ><div class="demo"></div></g-col>
         </g-row>
         <g-row>
-            <g-col span="6">6</g-col>
-            <g-col span="6">6</g-col>
-            <g-col span="6">6</g-col>
-            <g-col span="6">6</g-col>
+            <g-col span="6"><div class="demo"></div></g-col>
+            <g-col span="6"><div class="demo"></div></g-col>
+            <g-col span="6"><div class="demo"></div></g-col>
+            <g-col span="6"><div class="demo"></div></g-col>
         </g-row>
         <g-row>
-            <g-col span="2">2</g-col>
-            <g-col span="22">22</g-col>
+            <g-col span="2"><div class="demo"></div></g-col>
+            <g-col span="22"><div class="demo"></div></g-col>
         </g-row>
         <br>
         <hr>
@@ -65,24 +70,24 @@
     <div class="box">
         gutter=20
         <g-row gutter="20">
-            <g-col span="12">12</g-col>
-            <g-col span="6">6</g-col>
-            <g-col span="6">6</g-col>
+            <g-col span="12"><div class="demo"></div></g-col>
+            <g-col span="6"><div class="demo"></div></g-col>
+            <g-col span="6"><div class="demo"></div></g-col>
         </g-row>
         <g-row gutter="20">
-            <g-col span="8" >8</g-col>
-            <g-col span="8" >8</g-col>
-            <g-col span="8" >8</g-col>
+            <g-col span="8" ><div class="demo"></div></g-col>
+            <g-col span="8" ><div class="demo"></div></g-col>
+            <g-col span="8" ><div class="demo"></div></g-col>
         </g-row>
         <g-row gutter="20">
-            <g-col span="6">6</g-col>
-            <g-col span="6">6</g-col>
-            <g-col span="6">6</g-col>
-            <g-col span="6">6</g-col>
+            <g-col span="6"><div class="demo"></div></g-col>
+            <g-col span="6"><div class="demo"></div></g-col>
+            <g-col span="6"><div class="demo"></div></g-col>
+            <g-col span="6"><div class="demo"></div></g-col>
         </g-row>
         <g-row gutter="20">
-            <g-col span="2">2</g-col>
-            <g-col span="22">22</g-col>
+            <g-col span="2"><div class="demo"></div></g-col>
+            <g-col span="22"><div class="demo"></div></g-col>
         </g-row>
         <br>
         <hr>

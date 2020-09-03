@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1c37966-d7e9-4866-840e-685caa734674" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/col.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/row.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/26/9fe345127c79352c0a409132b51598.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/50/b0589c748105bbdd5cd26d1769bb4e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/74/159f19e943e30be2bbe8e0522735e5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/91/e03b1dec1366d74f8fe6afaa4eaf86.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/d8/072094786650c01147ac7d371619aa.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/input.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/input.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/col.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/col.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +111,7 @@
       <workItem from="1599011381671" duration="13030000" />
       <workItem from="1599026100324" duration="472000" />
       <workItem from="1599109751634" duration="10697000" />
-      <workItem from="1599129950008" duration="1857000" />
+      <workItem from="1599129950008" duration="15069000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1598591260174</created>
@@ -215,10 +206,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加npm test、npm run dev-test自动测试&#10;接入travis" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1090" y="255" key="#Inspections" timestamp="1598679135756">
+    <state x="1090" y="255" key="#Inspections" timestamp="1599137813787">
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
-    <state x="1090" y="255" key="#Inspections/0.0.1951.1152@0.0.1951.1152" timestamp="1598679135756" />
+    <state x="1090" y="255" key="#Inspections/0.0.1951.1152@0.0.1951.1152" timestamp="1599137813787" />
     <state x="214" y="399" key="#Notifications" timestamp="1598922337985">
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
@@ -231,10 +222,11 @@
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
     <state x="1089" y="88" key="CommitChangelistDialog2/0.0.1951.1152@0.0.1951.1152" timestamp="1598712953340" />
-    <state x="93" y="93" width="1766" height="966" key="DiffContextDialog" timestamp="1599033984841">
+    <state x="93" y="93" width="1766" height="966" key="DiffContextDialog" timestamp="1599146421304">
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
     <state x="93" y="93" width="1766" height="966" key="DiffContextDialog/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599033984841" />
+    <state x="93" y="93" width="1766" height="966" key="DiffContextDialog/0.0.1951.1152@0.0.1951.1152" timestamp="1599146421304" />
     <state x="899" y="259" width="438" height="515" key="FileChooserDialogImpl" timestamp="1599026360658">
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
@@ -320,9 +312,10 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/input.vue</url>
-          <line>20</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/col.vue</url>
+          <line>126</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
