@@ -28,23 +28,81 @@
             margin: 20px
             }
 
-
     </style>
 </head>
 <body>
 <div id="app">
-    <g-input v-model=" message "></g-input>
-    <p>{{message}}</p>
-    <button @click="message+=1">+1</button>
-
-    <g-input value="disabled输入框（不能focus）" :disabled="true"></g-input>
-    <g-input value="只读输入框"  :read-only="true"></g-input>
-    <g-input value="错误输入框" error="错误信息"></g-input>
-
-</div>
-
-    <g-input></g-input>
-    <div class="buttonWrapper">
+    <div class="box">
+        offset=12
+        <g-row>
+            <g-col span="6" >6</g-col>
+            <g-col span="6" offset="12">6</g-col>
+        </g-row>
+        无gutter
+        <g-row>
+            <g-col span="12">12</g-col>
+            <g-col span="6">6</g-col>
+            <g-col span="6">6</g-col>
+        </g-row>
+        <g-row>
+            <g-col span="8" >8</g-col>
+            <g-col span="8" >8</g-col>
+            <g-col span="8" >8</g-col>
+        </g-row>
+        <g-row>
+            <g-col span="6">6</g-col>
+            <g-col span="6">6</g-col>
+            <g-col span="6">6</g-col>
+            <g-col span="6">6</g-col>
+        </g-row>
+        <g-row>
+            <g-col span="2">2</g-col>
+            <g-col span="22">22</g-col>
+        </g-row>
+        <br>
+        <hr>
+    </div>
+    <div class="box">
+        gutter=20
+        <g-row gutter="20">
+            <g-col span="12">12</g-col>
+            <g-col span="6">6</g-col>
+            <g-col span="6">6</g-col>
+        </g-row>
+        <g-row gutter="20">
+            <g-col span="8" >8</g-col>
+            <g-col span="8" >8</g-col>
+            <g-col span="8" >8</g-col>
+        </g-row>
+        <g-row gutter="20">
+            <g-col span="6">6</g-col>
+            <g-col span="6">6</g-col>
+            <g-col span="6">6</g-col>
+            <g-col span="6">6</g-col>
+        </g-row>
+        <g-row gutter="20">
+            <g-col span="2">2</g-col>
+            <g-col span="22">22</g-col>
+        </g-row>
+        <br>
+        <hr>
+    </div>
+    <div class="box">
+        <g-input v-model=" message "></g-input>
+        <p>{{ message }}</p>
+        <button @click="message+=1">+1</button>
+        <br>
+        <g-input value="disabled输入框（不能focus）" :disabled="true"></g-input>
+        <br>
+        <g-input value="只读输入框" :read-only="true"></g-input>
+        <br>
+        <g-input value="错误输入框" error="错误信息"></g-input>
+        <br>
+        <g-input></g-input>
+        <hr>
+    </div>
+    <div class="box">
+        按钮
         <g-button :loading="loading1" loading1="!loading1" @click="loading1=!loading1" icon="setting"
                   icon-position="left">
             点我
@@ -61,11 +119,11 @@
         </g-button-group>
     </div>
 
-<script src="./src/app.js"></script>
 </body>
+<script src="./src/app.js"></script>
 </html>
 <style lang="scss">
-  .buttonWrapper {
+  .box {
     margin: 20px;
   }
 
