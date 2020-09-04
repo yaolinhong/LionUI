@@ -23,26 +23,26 @@
   },
   "homepage": "https://github.com/yaolh1995/LionUI#readme",
   "dependencies": {
-    "chai-spies": "^1.0.0",
-    "parcel": "^1.12.4",
-    "vue": "^2.6.12",
-    "vue-hot-reload-api": "^2.3.4",
-    "yarn": "^1.22.5"
+    "vue": "^2.6.10"
   },
   "devDependencies": {
-    "@vue/component-compiler-utils": "^3.2.0",
+    "@vue/component-compiler-utils": "^3.0.0",
     "chai": "^4.2.0",
-    "karma": "^5.1.1",
+    "chai-spies": "^1.0.0",
+    "karma": "^4.1.0",
     "karma-chai": "^0.1.0",
     "karma-chai-spies": "^0.1.4",
-    "karma-chrome-launcher": "^3.1.0",
-    "karma-mocha": "^2.0.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-mocha": "^1.3.0",
     "karma-sinon-chai": "^2.0.2",
-    "mocha": "^8.1.3",
+    "mocha": "^6.1.4",
+    "parcel-bundler": "^1.12.3",
     "sass": "^1.26.10",
-    "sinon": "^9.0.3",
-    "sinon-chai": "^3.5.0",
-    "spies": "^0.1.6",
-    "vue-template-compiler": "^2.6.12"
+    "sinon": "^7.3.2",
+    "sinon-chai": "^3.3.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.common.js"
   }
 }

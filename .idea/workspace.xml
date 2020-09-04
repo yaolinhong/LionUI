@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1c37966-d7e9-4866-840e-685caa734674" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/footer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sider.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/col.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/row.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/col.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/col.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/row.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/row.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/input.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/input.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,13 +45,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.54" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
     <property name="ts.external.directory.path" value="C:\JetBrains\WebStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\1\Desktop\LionUI\src" />
+      <recent name="C:\Users\1\Desktop\LionUI\test" />
       <recent name="C:\Users\1\Desktop\LionUI" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -112,6 +127,7 @@
       <workItem from="1599026100324" duration="472000" />
       <workItem from="1599109751634" duration="10697000" />
       <workItem from="1599129950008" duration="15069000" />
+      <workItem from="1599206318777" duration="8184000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1598591260174</created>
@@ -222,11 +238,12 @@
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
     <state x="1089" y="88" key="CommitChangelistDialog2/0.0.1951.1152@0.0.1951.1152" timestamp="1598712953340" />
-    <state x="93" y="93" width="1766" height="966" key="DiffContextDialog" timestamp="1599146421304">
-      <screen x="0" y="0" width="1951" height="1152" />
+    <state x="94" y="93" width="1792" height="966" key="DiffContextDialog" timestamp="1599205245352">
+      <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="93" y="93" width="1766" height="966" key="DiffContextDialog/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599033984841" />
     <state x="93" y="93" width="1766" height="966" key="DiffContextDialog/0.0.1951.1152@0.0.1951.1152" timestamp="1599146421304" />
+    <state x="94" y="93" width="1792" height="966" key="DiffContextDialog/0.0.1979.1152@0.0.1979.1152" timestamp="1599205245352" />
     <state x="899" y="259" width="438" height="515" key="FileChooserDialogImpl" timestamp="1599026360658">
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
@@ -289,10 +306,22 @@
     </state>
     <state x="233" y="206" key="SettingsEditor/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599016067355" />
     <state x="233" y="206" key="SettingsEditor/0.0.1951.1152@0.0.1951.1152" timestamp="1599119570147" />
+    <state x="1246" y="501" key="VCS.ChangelistChooser" timestamp="1599204809828">
+      <screen x="0" y="0" width="1979" height="1152" />
+    </state>
+    <state x="1246" y="501" key="VCS.ChangelistChooser/0.0.1979.1152@0.0.1979.1152" timestamp="1599204809828" />
     <state x="81" y="312" key="Vcs.Push.Dialog.v2" timestamp="1598664330766">
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
     <state x="81" y="312" key="Vcs.Push.Dialog.v2/0.0.1951.1152@0.0.1951.1152" timestamp="1598664330766" />
+    <state x="63" y="185" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599203700420">
+      <screen x="0" y="0" width="1979" height="1152" />
+    </state>
+    <state x="63" y="185" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1979.1152@0.0.1979.1152" timestamp="1599203700420" />
+    <state x="-6" y="0" width="1002" height="1158" key="dock-window-1" timestamp="1599208107334">
+      <screen x="0" y="0" width="1979" height="1152" />
+    </state>
+    <state x="-6" y="0" width="1002" height="1158" key="dock-window-1/0.0.1979.1152@0.0.1979.1152" timestamp="1599208107334" />
     <state x="1120" y="272" key="run.anything.popup" timestamp="1598697705041">
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
@@ -310,12 +339,6 @@
           <url>file://$PROJECT_DIR$/src/button-group.vue</url>
           <line>30</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/col.vue</url>
-          <line>126</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

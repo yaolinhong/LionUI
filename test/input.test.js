@@ -81,7 +81,6 @@ describe('事件', () => {
                 )
                 let inputElement = vm.$el.querySelector('input')
                 inputElement.dispatchEvent(event)
-                console.log(event)
                 expect(callback).to.have.been.calledWith("hi");
             })
     })

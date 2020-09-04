@@ -24,45 +24,89 @@
             --border-color-hover: #666;
             }
 
-        #app {
-            margin: 20px
-            }
-        .demo{
+        .demo {
             background-color: #ddd;
             border: 1px solid #666;
             height: 100px;
             }
-
+.sider{
+    background: #333;
+    width: 200px;
+    }
+.header{
+    background: #999;
+    height: 100px;
+    }
+.footer {
+    background: #ccc;
+    height: 50px;
+    }
     </style>
 </head>
 <body>
 <div id="app">
+    <g-layout   style="height: 100vh;">
+        <g-header >header</g-header>
+        <g-layout style="height: 50vh;">
+            <g-sider >sider</g-sider>
+            <g-content >sidercontent</g-content>
+        </g-layout>
+        <g-footer >footer</g-footer>
+    </g-layout>
     <div class="box">
         响应式
-        <g-row >
-            <g-col span="12" :pc="{span:12,offset:0}" ><div class="demo"></div></g-col>
-            <g-col span="6" offset="6" :pc="{span:12,offset:0}"><div class="demo"></div></g-col>
+        <g-row>
+            <g-col span="12" :pc="{span:12,offset:0}">
+                <div class="demo"></div>
+            </g-col>
+            <g-col span="6" offset="6" :pc="{span:12,offset:0}">
+                <div class="demo"></div>
+            </g-col>
         </g-row>
         无gutter
         <g-row>
-            <g-col span="12"><div class="demo"></div></g-col>
-            <g-col span="6"><div class="demo"></div></g-col>
-            <g-col span="6"><div class="demo"></div></g-col>
+            <g-col span="12">
+                <div class="demo"></div>
+            </g-col>
+            <g-col span="6">
+                <div class="demo"></div>
+            </g-col>
+            <g-col span="6">
+                <div class="demo"></div>
+            </g-col>
         </g-row>
         <g-row>
-            <g-col span="8" ><div class="demo"></div></g-col>
-            <g-col span="8" ><div class="demo"></div></g-col>
-            <g-col span="8" ><div class="demo"></div></g-col>
+            <g-col span="8">
+                <div class="demo"></div>
+            </g-col>
+            <g-col span="8">
+                <div class="demo"></div>
+            </g-col>
+            <g-col span="8">
+                <div class="demo"></div>
+            </g-col>
         </g-row>
         <g-row>
-            <g-col span="6"><div class="demo"></div></g-col>
-            <g-col span="6"><div class="demo"></div></g-col>
-            <g-col span="6"><div class="demo"></div></g-col>
-            <g-col span="6"><div class="demo"></div></g-col>
+            <g-col span="6">
+                <div class="demo"></div>
+            </g-col>
+            <g-col span="6">
+                <div class="demo"></div>
+            </g-col>
+            <g-col span="6">
+                <div class="demo"></div>
+            </g-col>
+            <g-col span="6">
+                <div class="demo"></div>
+            </g-col>
         </g-row>
         <g-row>
-            <g-col span="2"><div class="demo"></div></g-col>
-            <g-col span="22"><div class="demo"></div></g-col>
+            <g-col span="2">
+                <div class="demo"></div>
+            </g-col>
+            <g-col span="22">
+                <div class="demo"></div>
+            </g-col>
         </g-row>
         <br>
         <hr>
@@ -70,24 +114,48 @@
     <div class="box">
         gutter=20
         <g-row gutter="20">
-            <g-col span="12"><div class="demo"></div></g-col>
-            <g-col span="6"><div class="demo"></div></g-col>
-            <g-col span="6"><div class="demo"></div></g-col>
+            <g-col span="12">
+                <div class="demo"></div>
+            </g-col>
+            <g-col span="6">
+                <div class="demo"></div>
+            </g-col>
+            <g-col span="6">
+                <div class="demo"></div>
+            </g-col>
         </g-row>
         <g-row gutter="20">
-            <g-col span="8" ><div class="demo"></div></g-col>
-            <g-col span="8" ><div class="demo"></div></g-col>
-            <g-col span="8" ><div class="demo"></div></g-col>
+            <g-col span="8">
+                <div class="demo"></div>
+            </g-col>
+            <g-col span="8">
+                <div class="demo"></div>
+            </g-col>
+            <g-col span="8">
+                <div class="demo"></div>
+            </g-col>
         </g-row>
         <g-row gutter="20">
-            <g-col span="6"><div class="demo"></div></g-col>
-            <g-col span="6"><div class="demo"></div></g-col>
-            <g-col span="6"><div class="demo"></div></g-col>
-            <g-col span="6"><div class="demo"></div></g-col>
+            <g-col span="6">
+                <div class="demo"></div>
+            </g-col>
+            <g-col span="6">
+                <div class="demo"></div>
+            </g-col>
+            <g-col span="6">
+                <div class="demo"></div>
+            </g-col>
+            <g-col span="6">
+                <div class="demo"></div>
+            </g-col>
         </g-row>
         <g-row gutter="20">
-            <g-col span="2"><div class="demo"></div></g-col>
-            <g-col span="22"><div class="demo"></div></g-col>
+            <g-col span="2">
+                <div class="demo"></div>
+            </g-col>
+            <g-col span="22">
+                <div class="demo"></div>
+            </g-col>
         </g-row>
         <br>
         <hr>
