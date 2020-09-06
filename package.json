@@ -25,7 +25,8 @@
   },
   "homepage": "https://github.com/yaolh1995/LionUI#readme",
   "dependencies": {
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "vue-grid-layout": "^2.1.13"
   },
   "devDependencies": {
     "@vue/component-compiler-utils": "^3.0.0",

@@ -48,13 +48,13 @@
 </head>
 <body>
 <div id="app">
-    <g-tabs :selected.sync="selectTab"  @update:selected="yyy">
+    <g-tabs :selected.sync="selectedTab" @update:selected="yyy">
         <g-tabs-head>
-            <div class="actions-wrapper">
-                <slot name="actions"></slot>
-            </div>
-            <g-tabs-item name="woman">美女</g-tabs-item>
-            <g-tabs-item name="finace" disabled="true">财经</g-tabs-item>
+            <template slot="actions">
+                <button>设置</button>
+            </template>
+            <g-tabs-item name="woman" icon="warning">美女</g-tabs-item>
+            <g-tabs-item name="finace" :disabled=true>财经</g-tabs-item>
             <g-tabs-item name="sports">体育</g-tabs-item>
 
         </g-tabs-head>

@@ -47,11 +47,14 @@ new Vue({
         loading2: false,
         loading3: false,
         message:"双向绑定示例信息",
-        selectTab:false
+        selectedTab: 'sports'
     },
     created() {
     },
     methods: {
+        yyy(name){
+            console.log('yy'+name)
+        },
         showToast1(){
             this.showToast('top')
         },

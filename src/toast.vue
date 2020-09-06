@@ -68,7 +68,6 @@ export default {
       if (this.autoClose) {
         setTimeout(() => {
           this.close()
-          console.log('关了')
         }, this.autoClose* 1000)
       }
     },

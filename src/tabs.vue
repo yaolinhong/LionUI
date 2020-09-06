@@ -1,13 +1,15 @@
-<template @click="onUpdateSelectTab">
-  <slot/>
+<template >
+  <div class="tabs" >
+    <slot/>
+  </div>
 </template>
 <script>
+import Vue from 'vue'
 export default {
   data() {
     return {
       eventBus: new Vue()
     }
-
   },
   props: {
     selected: {
@@ -16,7 +18,6 @@ export default {
     },
     direction: {
       type: String,
-      required: true,
       default: "horizontal",
       validator(value) {
         return ['horizontal', 'vertical'].indexOf(value) >= 0
@@ -25,8 +26,11 @@ export default {
   },
   provide() {
     return {
-      event: this.eventBus
+      eventBus: this.eventBus
     }
+  },
+  mounted() {
+    this.eventBus.$emit('update:selected','this.selected')
   }
   // created() {
   // },

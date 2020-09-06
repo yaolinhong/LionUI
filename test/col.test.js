@@ -86,7 +86,6 @@ describe('Col', () => {
         const vm = new Constructor({
             propsData:{widePc: {span:1,offset:2}}
         }).$mount(div)
-        console.log(vm.$el)
         expect(vm.$el.classList.contains('col-wide-pc-1')).to.eq(true)
         expect(vm.$el.classList.contains('offset-wide-pc-2')).to.eq(true)
         div.remove()

@@ -1,5 +1,7 @@
 <template>
-  <slot/>
+  <div class="tabs-body">
+    <slot/>
+  </div>
 </template>
 
 <script>
