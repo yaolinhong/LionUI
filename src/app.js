@@ -10,6 +10,7 @@ import Header from "./header"
 import Content from "./content"
 import Footer from "./footer"
 import Sider from "./sider"
+import plugin from './plugin'
 
 Vue.component('g-button', Button)
 Vue.component('g-icon', Icon)
@@ -22,6 +23,11 @@ Vue.component("g-header", Header)
 Vue.component('g-content',Content)
 Vue.component('g-footer',Footer)
 Vue.component('g-sider',Sider)
+Vue.use(plugin)
+
+import createElement from 'vue'
+
+const h = createElement
 
 
 new Vue({
@@ -31,6 +37,33 @@ new Vue({
         loading2: false,
         loading3: false,
         message:"双向绑定示例信息"
+    },
+    created() {
+    },
+    methods: {
+        showToast1(){
+            this.showToast('top')
+        },
+        showToast2(){
+            this.showToast('middle')
+        },
+        showToast3(){
+            this.showToast('bottom')
+        },
+        showToast(position){
+            this.$toast(` ${parseInt(Math.random() * 100)}已发送 `, {
+                position,
+                enableHtml: false,
+                closeButton: {
+                    text: 'OK',
+                    callback () {
+                        console.log('他说ok了')
+                    }
+                },
+                autoClose: true,
+                autoCloseDelay:1
+            })
+        }
     }
 })
 //单元测试

@@ -6,7 +6,6 @@
 <script>
 let validator = (value) => {
   let keys = Object.keys(value)
-  console.log(keys)
   let valid = true
   keys.forEach(key => {
     if (!['span', 'offset'].includes(key)) {
@@ -74,7 +73,7 @@ export default {
   }
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 .col {
   $class-prefix: col-;
   @for $n from 0 through 24 {

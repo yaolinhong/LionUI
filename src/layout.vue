@@ -13,18 +13,15 @@ export default {
     }
   },
   mounted() {
-    console.log(
-        this.$children.forEach((vm) => {
-          console.log(vm.$options.name)
-          if (vm.$options.name === 'g-sider') {
-            this.layoutClass.hasSider = true
+            this.$children.forEach((vm) => {
+              if (vm.$options.name === 'g-sider') {
+                this.layoutClass.hasSider = true
           }
         })
-    )
   }
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 .layout {
   display: flex;
   flex-direction: column;

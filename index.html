@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, user-scalable=no,
+          initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>LionUI</title>
     <style>
@@ -29,29 +30,37 @@
             border: 1px solid #666;
             height: 100px;
             }
-.sider{
-    background: #333;
-    width: 200px;
-    }
-.header{
-    background: #999;
-    height: 100px;
-    }
-.footer {
-    background: #ccc;
-    height: 50px;
-    }
+
+        .sider {
+            background: #333;
+            }
+
+        .header {
+            background: #999;
+            height: 100px;
+            }
+
+        .footer {
+            background: #ccc;
+            height: 50px;
+            }
     </style>
 </head>
 <body>
 <div id="app">
-    <g-layout   style="height: 100vh;">
-        <g-header >header</g-header>
+
+        <button class="toast" @click="showToast('top')">上</button>
+        <button class="toast" @click="showToast('middle')">中</button>
+        <button class="toast" @click="showToast('bottom')">下</button>
+
+
+    <g-layout style="height: 100vh;">
+        <g-header>header</g-header>
         <g-layout style="height: 50vh;">
-            <g-sider >sider</g-sider>
-            <g-content >sidercontent</g-content>
+            <g-sider>sider</g-sider>
+            <g-content>sidercontent</g-content>
         </g-layout>
-        <g-footer >footer</g-footer>
+        <g-footer>footer</g-footer>
     </g-layout>
     <div class="box">
         响应式

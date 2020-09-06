@@ -5,7 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1c37966-d7e9-4866-840e-685caa734674" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/component/button.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/get-started/start.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/install/install.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/toast.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button-group.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button-group.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/col.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/col.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/icon.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/sider.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +51,7 @@
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.54" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.EJS" />
     <property name="ts.external.directory.path" value="C:\JetBrains\WebStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -43,6 +61,7 @@
       <recent name="C:\Users\1\Desktop\LionUI" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\1\Desktop\LionUI\docs" />
       <recent name="C:\Users\1\Desktop\LionUI" />
       <recent name="C:\Users\1\Desktop\LionUI\test" />
       <recent name="C:\Users\1\Desktop\LionUI\dist" />
@@ -113,7 +132,13 @@
       <workItem from="1599026100324" duration="472000" />
       <workItem from="1599109751634" duration="10697000" />
       <workItem from="1599129950008" duration="15069000" />
-      <workItem from="1599206318777" duration="12480000" />
+      <workItem from="1599206318777" duration="14455000" />
+      <workItem from="1599230135679" duration="1660000" />
+      <workItem from="1599234641435" duration="1154000" />
+      <workItem from="1599271752741" duration="11170000" />
+      <workItem from="1599298056245" duration="5990000" />
+      <workItem from="1599360831502" duration="7304000" />
+      <workItem from="1599373059783" duration="7972000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1598591260174</created>
@@ -212,24 +237,30 @@
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
     <state x="1090" y="255" key="#Inspections/0.0.1951.1152@0.0.1951.1152" timestamp="1599137813787" />
+    <state x="583" y="235" key="#Intentions" timestamp="1599284314252">
+      <screen x="0" y="0" width="1979" height="1152" />
+    </state>
+    <state x="583" y="235" key="#Intentions/0.0.1979.1152@0.0.1979.1152" timestamp="1599284314252" />
     <state x="214" y="399" key="#Notifications" timestamp="1598922337985">
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
     <state x="214" y="399" key="#Notifications/0.0.1951.1152@0.0.1951.1152" timestamp="1598922337985" />
-    <state x="690" y="371" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598925827231">
-      <screen x="0" y="0" width="1951" height="1152" />
+    <state x="700" y="371" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599316014349">
+      <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="690" y="371" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1951.1152@0.0.1951.1152" timestamp="1598925827231" />
+    <state x="700" y="371" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1979.1152/2560.0.974.800@0.0.1979.1152" timestamp="1599316014349" />
+    <state x="700" y="371" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1979.1152@0.0.1979.1152" timestamp="1599298245277" />
     <state x="1089" y="88" key="CommitChangelistDialog2" timestamp="1598712953340">
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
     <state x="1089" y="88" key="CommitChangelistDialog2/0.0.1951.1152@0.0.1951.1152" timestamp="1598712953340" />
-    <state x="94" y="93" width="1792" height="966" key="DiffContextDialog" timestamp="1599205245352">
+    <state x="94" y="93" width="1792" height="966" key="DiffContextDialog" timestamp="1599381095377">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="93" y="93" width="1766" height="966" key="DiffContextDialog/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599033984841" />
     <state x="93" y="93" width="1766" height="966" key="DiffContextDialog/0.0.1951.1152@0.0.1951.1152" timestamp="1599146421304" />
-    <state x="94" y="93" width="1792" height="966" key="DiffContextDialog/0.0.1979.1152@0.0.1979.1152" timestamp="1599205245352" />
+    <state x="94" y="93" width="1792" height="966" key="DiffContextDialog/0.0.1979.1152@0.0.1979.1152" timestamp="1599381095377" />
     <state x="899" y="259" width="438" height="515" key="FileChooserDialogImpl" timestamp="1599026360658">
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
@@ -287,11 +318,12 @@
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
     <state width="952" height="324" key="GridCell.Tab.4.right/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599023403841" />
-    <state x="233" y="206" key="SettingsEditor" timestamp="1599119570147">
-      <screen x="0" y="0" width="1951" height="1152" />
+    <state x="236" y="206" key="SettingsEditor" timestamp="1599363247205">
+      <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="233" y="206" key="SettingsEditor/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599016067355" />
     <state x="233" y="206" key="SettingsEditor/0.0.1951.1152@0.0.1951.1152" timestamp="1599119570147" />
+    <state x="236" y="206" key="SettingsEditor/0.0.1979.1152@0.0.1979.1152" timestamp="1599363247205" />
     <state x="1246" y="501" key="VCS.ChangelistChooser" timestamp="1599204809828">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
@@ -312,11 +344,12 @@
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
     <state x="1120" y="272" key="run.anything.popup/0.0.1951.1152@0.0.1951.1152" timestamp="1598697705041" />
-    <state x="1078" y="242" width="672" height="678" key="search.everywhere.popup" timestamp="1599130940281">
-      <screen x="0" y="0" width="1951" height="1152" />
+    <state x="1094" y="242" width="682" height="678" key="search.everywhere.popup" timestamp="1599378795549">
+      <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="150" y="258" width="672" height="678" key="search.everywhere.popup/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599015960074" />
     <state x="1078" y="242" width="672" height="678" key="search.everywhere.popup/0.0.1951.1152@0.0.1951.1152" timestamp="1599130940281" />
+    <state x="1094" y="242" width="682" height="678" key="search.everywhere.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1599378795549" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
