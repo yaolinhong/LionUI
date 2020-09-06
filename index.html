@@ -48,10 +48,26 @@
 </head>
 <body>
 <div id="app">
+    <g-tabs :selected.sync="selectTab"  @update:selected="yyy">
+        <g-tabs-head>
+            <div class="actions-wrapper">
+                <slot name="actions"></slot>
+            </div>
+            <g-tabs-item name="woman">美女</g-tabs-item>
+            <g-tabs-item name="finace" disabled="true">财经</g-tabs-item>
+            <g-tabs-item name="sports">体育</g-tabs-item>
 
-        <button class="toast" @click="showToast('top')">上</button>
-        <button class="toast" @click="showToast('middle')">中</button>
-        <button class="toast" @click="showToast('bottom')">下</button>
+        </g-tabs-head>
+        <g-tabs-body>
+            <g-tabs-pane name="woman">美女相关咨询</g-tabs-pane>
+            <g-tabs-pane name="finace">财经相关咨询</g-tabs-pane>
+            <g-tabs-pane name="sports">体育相关咨询</g-tabs-pane>
+
+        </g-tabs-body>
+    </g-tabs>
+    <button class="toast" @click="showToast('top')">上</button>
+    <button class="toast" @click="showToast('middle')">中</button>
+    <button class="toast" @click="showToast('bottom')">下</button>
 
 
     <g-layout style="height: 100vh;">

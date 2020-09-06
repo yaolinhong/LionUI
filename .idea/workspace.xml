@@ -5,31 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1c37966-d7e9-4866-840e-685caa734674" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/component/button.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/get-started/start.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/install/install.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toast.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/toast.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tabs-body.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tabs-head.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tabs-items.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tabs-pane.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tabs.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/button-group.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button-group.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/col.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/col.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icon.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/icon.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/sider.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,6 +33,9 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="1giImJ0Xh7NQybs219C3slHLZNI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,21 +49,22 @@
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.54" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.EJS" />
     <property name="ts.external.directory.path" value="C:\JetBrains\WebStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\1\Desktop\LionUI\src" />
-      <recent name="C:\Users\1\Desktop\LionUI\test" />
-      <recent name="C:\Users\1\Desktop\LionUI" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\1\Desktop\LionUI\docs" />
       <recent name="C:\Users\1\Desktop\LionUI" />
       <recent name="C:\Users\1\Desktop\LionUI\test" />
       <recent name="C:\Users\1\Desktop\LionUI\dist" />
       <recent name="C:\Users\1\Desktop\LionUI\node_modules" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\1\Desktop\LionUI\src" />
+      <recent name="C:\Users\1\Desktop\LionUI\test" />
+      <recent name="C:\Users\1\Desktop\LionUI" />
     </key>
   </component>
   <component name="RunManager" selected="Karma.事件.支持 change/input/focus/blur 事件">
@@ -138,7 +137,7 @@
       <workItem from="1599271752741" duration="11170000" />
       <workItem from="1599298056245" duration="5990000" />
       <workItem from="1599360831502" duration="7304000" />
-      <workItem from="1599373059783" duration="9106000" />
+      <workItem from="1599373059783" duration="16445000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1598591260174</created>
@@ -245,12 +244,16 @@
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
     <state x="214" y="399" key="#Notifications/0.0.1951.1152@0.0.1951.1152" timestamp="1598922337985" />
-    <state x="700" y="371" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599316014349">
+    <state x="700" y="371" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599384667858">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="690" y="371" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1951.1152@0.0.1951.1152" timestamp="1598925827231" />
     <state x="700" y="371" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1979.1152/2560.0.974.800@0.0.1979.1152" timestamp="1599316014349" />
-    <state x="700" y="371" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1979.1152@0.0.1979.1152" timestamp="1599298245277" />
+    <state x="700" y="371" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1979.1152@0.0.1979.1152" timestamp="1599384667858" />
+    <state x="1300" y="428" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599385121175">
+      <screen x="0" y="0" width="1979" height="1152" />
+    </state>
+    <state x="1300" y="428" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1979.1152@0.0.1979.1152" timestamp="1599385121175" />
     <state x="1089" y="88" key="CommitChangelistDialog2" timestamp="1598712953340">
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
@@ -261,11 +264,12 @@
     <state x="93" y="93" width="1766" height="966" key="DiffContextDialog/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599033984841" />
     <state x="93" y="93" width="1766" height="966" key="DiffContextDialog/0.0.1951.1152@0.0.1951.1152" timestamp="1599146421304" />
     <state x="94" y="93" width="1792" height="966" key="DiffContextDialog/0.0.1979.1152@0.0.1979.1152" timestamp="1599381095377" />
-    <state x="899" y="259" width="438" height="515" key="FileChooserDialogImpl" timestamp="1599026360658">
-      <screen x="0" y="0" width="1951" height="1152" />
+    <state x="912" y="259" width="438" height="515" key="FileChooserDialogImpl" timestamp="1599384729928">
+      <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="899" y="259" key="FileChooserDialogImpl/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599026360658" />
     <state x="899" y="259" width="438" height="515" key="FileChooserDialogImpl/0.0.1951.1152@0.0.1951.1152" timestamp="1598796273058" />
+    <state x="912" y="259" key="FileChooserDialogImpl/0.0.1979.1152@0.0.1979.1152" timestamp="1599384729928" />
     <state width="952" height="324" key="GridCell.Tab.0.bottom" timestamp="1599035261505">
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
@@ -340,16 +344,20 @@
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="-6" y="0" width="1002" height="1158" key="dock-window-1/0.0.1979.1152@0.0.1979.1152" timestamp="1599208107334" />
+    <state x="1275" y="183" width="598" height="792" key="find.popup" timestamp="1599389611708">
+      <screen x="0" y="0" width="1979" height="1152" />
+    </state>
+    <state x="1275" y="183" width="598" height="792" key="find.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1599389611708" />
     <state x="1120" y="272" key="run.anything.popup" timestamp="1598697705041">
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
     <state x="1120" y="272" key="run.anything.popup/0.0.1951.1152@0.0.1951.1152" timestamp="1598697705041" />
-    <state x="1094" y="242" width="682" height="678" key="search.everywhere.popup" timestamp="1599378795549">
+    <state x="1094" y="242" width="682" height="678" key="search.everywhere.popup" timestamp="1599389585053">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="150" y="258" width="672" height="678" key="search.everywhere.popup/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599015960074" />
     <state x="1078" y="242" width="672" height="678" key="search.everywhere.popup/0.0.1951.1152@0.0.1951.1152" timestamp="1599130940281" />
-    <state x="1094" y="242" width="682" height="678" key="search.everywhere.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1599378795549" />
+    <state x="1094" y="242" width="682" height="678" key="search.everywhere.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1599389585053" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
