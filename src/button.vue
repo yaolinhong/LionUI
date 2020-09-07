@@ -4,7 +4,7 @@
       :class="{[`icon-${iconPosition}`]:true}">
    <g-icon class="loading icon" v-if="loading" name="loading"></g-icon>
     <g-icon class="icon" v-if="icon && !loading" :name="icon"></g-icon>
-    <div class="content"><slot></slot></div>
+    <div class="g-button-content"><slot></slot></div>
   </button>
 </template>
 <script>
@@ -42,7 +42,7 @@ $border-color-hover: #666;
   100% { transform: rotate(360deg); }
 }
 .g-button { font-size: $font-size;
-  height: $button-height;padding: 0 1em;
+  height: $button-height;padding: 0 0.5em;
   border-radius: $border-radius;
   border: 1px solid $border-color;
   background: $button-bg;
@@ -59,7 +59,7 @@ $border-color-hover: #666;
     > .icon { order: 2; margin-right: 0; margin-left: .1em;}
   }
   .loading {
-    animation: spin 2s infinite linear;
+    animation: spin 0.8s infinite linear;
   }
 }
 </style>

@@ -1,4 +1,28 @@
 ---
-title: 快速开始
+title: 快速上手
 ---
-start
+
+### 快速上手
+### 安装
+参考 [安装](/install/) 章节
+### 添加 CSS 样式 
+使用本框架前，请在 CSS 中开启 border-box
+``` CSS
+*，*::before,*::after{ box-sizing: border-box }
+```
+仅支持IE 8 及以上浏览器。
+
+### 引入组件
+
+``` js
+import { Button } from 'lion-ui'
+import 'lion-ui/dist/index.css'
+
+export default {
+    name: 'app',
+    components: {
+        'g-button': Button
+    }
+}
+```
+

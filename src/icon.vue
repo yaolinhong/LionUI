@@ -1,10 +1,10 @@
 <template>
   <svg class="g-icon">
-    <use :xlink:href=`icon-${{name}}`></use>
+    <use :xlink:href="`#icon-${name}`"></use>
   </svg>
 </template>
 <script>
-import "./svg"
+import "./svg.js"
 export default {
   name:"g-icon",
   props:['name'],

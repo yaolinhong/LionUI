@@ -42,12 +42,15 @@ const h = createElement
 
 new Vue({
     el: "#app",
-    data: {
-        loading1: false,
-        loading2: false,
-        loading3: false,
-        message:"双向绑定示例信息",
-        selectedTab: 'sports'
+    data() {
+        return {
+            loading1: false,
+            loading2: false,
+            loading3: false,
+            message: "双向绑定示例信息",
+            selectedTab: 'sports'
+        }
+
     },
     created() {
     },

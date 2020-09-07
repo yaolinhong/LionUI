@@ -23,27 +23,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1c37966-d7e9-4866-840e-685caa734674" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/button-demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/components/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/components/button.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tabs-body.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tabs-head.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tabs-item.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tabs-pane.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tabs.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/input-demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/Lion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/components/input.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/introduce/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/components/button-demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/components/button-demo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/component/button.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/get-started/start.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/get-started/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/install/install.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/install/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/components/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/components/button.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/components/button.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/get-started/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/get-started/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/install/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/install/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/button-group.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button-group.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/icon.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/icon.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tabs-items.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-items.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +58,11 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="showPreview" value="true" />
+  </component>
   <component name="ProjectId" id="1giImJ0Xh7NQybs219C3slHLZNI" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -78,26 +76,26 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.54" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/.vuepress/public" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="C:\JetBrains\WebStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\1\Desktop\LionUI\docs\component" />
-      <recent name="C:\Users\1\Desktop\LionUI\docs" />
-      <recent name="C:\Users\1\Desktop\LionUI" />
-      <recent name="C:\Users\1\Desktop\LionUI\test" />
-      <recent name="C:\Users\1\Desktop\LionUI\dist" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\1\Desktop\LionUI\docs\.vuepress\public" />
+      <recent name="C:\Users\1\Desktop\LionUI\docs\heroImage" />
       <recent name="C:\Users\1\Desktop\LionUI" />
       <recent name="C:\Users\1\Desktop\LionUI\docs\.vuepress" />
       <recent name="C:\Users\1\Desktop\LionUI\docs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\1\Desktop\LionUI\docs\.vuepress\public" />
+      <recent name="C:\Users\1\Desktop\LionUI\docs" />
+      <recent name="C:\Users\1\Desktop\LionUI\docs\component" />
+      <recent name="C:\Users\1\Desktop\LionUI" />
       <recent name="C:\Users\1\Desktop\LionUI\test" />
-      <recent name="C:\Users\1\Desktop\LionUI\src" />
     </key>
   </component>
   <component name="RunManager" selected="Karma.事件.支持 change/input/focus/blur 事件">
@@ -174,6 +172,7 @@
       <workItem from="1599439510573" duration="94000" />
       <workItem from="1599439616700" duration="8449000" />
       <workItem from="1599465030010" duration="14124000" />
+      <workItem from="1599490077678" duration="1005000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1598591260174</created>
@@ -331,12 +330,12 @@
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
     <state x="214" y="399" key="#Notifications/0.0.1951.1152@0.0.1951.1152" timestamp="1598922337985" />
-    <state x="700" y="371" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599384667858">
+    <state x="700" y="371" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599489793425">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="690" y="371" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1951.1152@0.0.1951.1152" timestamp="1598925827231" />
     <state x="700" y="371" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1979.1152/2560.0.974.800@0.0.1979.1152" timestamp="1599316014349" />
-    <state x="700" y="371" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1979.1152@0.0.1979.1152" timestamp="1599384667858" />
+    <state x="700" y="371" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1979.1152@0.0.1979.1152" timestamp="1599489793425" />
     <state x="1219" y="323" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599475971467">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
@@ -414,12 +413,12 @@
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
     <state width="952" height="324" key="GridCell.Tab.4.right/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599023403841" />
-    <state x="983" y="163" key="SettingsEditor" timestamp="1599401984057">
+    <state x="983" y="163" key="SettingsEditor" timestamp="1599485448266">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="233" y="206" key="SettingsEditor/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599016067355" />
     <state x="233" y="206" key="SettingsEditor/0.0.1951.1152@0.0.1951.1152" timestamp="1599119570147" />
-    <state x="983" y="163" key="SettingsEditor/0.0.1979.1152@0.0.1979.1152" timestamp="1599401984057" />
+    <state x="983" y="163" key="SettingsEditor/0.0.1979.1152@0.0.1979.1152" timestamp="1599485448266" />
     <state width="252" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1599400398046">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
@@ -461,12 +460,12 @@
     </state>
     <state x="1120" y="272" key="run.anything.popup/0.0.1951.1152@0.0.1951.1152" timestamp="1598697705041" />
     <state x="1136" y="272" key="run.anything.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1599396936087" />
-    <state x="1094" y="242" width="682" height="678" key="search.everywhere.popup" timestamp="1599480191694">
+    <state x="1094" y="242" width="682" height="678" key="search.everywhere.popup" timestamp="1599490768533">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="150" y="258" width="672" height="678" key="search.everywhere.popup/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599015960074" />
     <state x="1078" y="242" width="672" height="678" key="search.everywhere.popup/0.0.1951.1152@0.0.1951.1152" timestamp="1599130940281" />
-    <state x="1094" y="242" width="682" height="678" key="search.everywhere.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1599480191694" />
+    <state x="1094" y="242" width="682" height="678" key="search.everywhere.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1599490768533" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
