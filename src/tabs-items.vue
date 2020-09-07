@@ -1,7 +1,7 @@
 <template>
   <div class="tabs-item" @click="xxx" :class="classes">
     <g-icon class="icon" v-if="icon" :name="icon"></g-icon>
-    <slot/>
+    <slot></slot>
 
   </div>
 
@@ -52,12 +52,21 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+$blue:blue;
 .tabs-item {
   flex-shrink: 0;
+  height: 100%;
   padding: 0 2em;
+  cursor:pointer;
+  border: 1px solid green;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
   &.active{
-    background-color:red;
+    color: $blue;
   }
+
 }
 
 </style>

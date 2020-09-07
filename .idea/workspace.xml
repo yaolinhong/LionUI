@@ -3,22 +3,31 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f1c37966-d7e9-4866-840e-685caa734674" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tabs-body.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-body.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tabs-head.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-head.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tabs-items.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-items.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tabs-pane.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-pane.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/toast.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/toast.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/col.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/col.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/toast.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/toast.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +152,9 @@
       <workItem from="1599271752741" duration="11170000" />
       <workItem from="1599298056245" duration="5990000" />
       <workItem from="1599360831502" duration="7304000" />
-      <workItem from="1599373059783" duration="28301000" />
+      <workItem from="1599373059783" duration="28891000" />
+      <workItem from="1599439510573" duration="94000" />
+      <workItem from="1599439616700" duration="2679000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1598591260174</created>
@@ -223,6 +234,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="npm install vue" />
@@ -354,21 +377,21 @@
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="-6" y="0" width="1002" height="1158" key="dock-window-1/0.0.1979.1152@0.0.1979.1152" timestamp="1599208107334" />
-    <state x="830" y="163" width="598" height="792" key="find.popup" timestamp="1599400556241">
+    <state x="830" y="163" width="598" height="792" key="find.popup" timestamp="1599441079742">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
-    <state x="830" y="163" width="598" height="792" key="find.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1599400556241" />
+    <state x="830" y="163" width="598" height="792" key="find.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1599441079742" />
     <state x="1136" y="272" key="run.anything.popup" timestamp="1599396936087">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="1120" y="272" key="run.anything.popup/0.0.1951.1152@0.0.1951.1152" timestamp="1598697705041" />
     <state x="1136" y="272" key="run.anything.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1599396936087" />
-    <state x="1094" y="242" width="682" height="678" key="search.everywhere.popup" timestamp="1599401957306">
+    <state x="1094" y="242" width="682" height="678" key="search.everywhere.popup" timestamp="1599441058760">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="150" y="258" width="672" height="678" key="search.everywhere.popup/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599015960074" />
     <state x="1078" y="242" width="672" height="678" key="search.everywhere.popup/0.0.1951.1152@0.0.1951.1152" timestamp="1599130940281" />
-    <state x="1094" y="242" width="682" height="678" key="search.everywhere.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1599401957306" />
+    <state x="1094" y="242" width="682" height="678" key="search.everywhere.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1599441058760" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
