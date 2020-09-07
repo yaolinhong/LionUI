@@ -32,13 +32,13 @@ export default {
   mounted() {
     this.$children.forEach((vm)=>{
       if (vm.$options.name==='g-tabs-head'){
-        vm.$children.forEach((item)=>{
+        vm.$children.forEach((childvm)=>{
           console.log('-----')
-          console.log( item.name)
-          console.log(item.$el)
+          console.log( childvm.name)
+          console.log(childvm.$el)
           console.log(this.selected)
-          if (item.$options.name==='g-tabs-item'&& item.name===this.selected){}
-        this.eventBus.$emit('update:selected',this.selected,item)
+          if (childvm.$options.name==='g-tabs-item'&& childvm.name===this.selected){}
+        this.eventBus.$emit('update:selected',this.selected,childvm)
         })
 
       }
