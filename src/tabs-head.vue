@@ -1,7 +1,8 @@
 <template>
   <div class="tabs-head">
     <slot></slot>
-    <div class="line" ref="line"></div>
+    <div class="line" ref="line" ></div>
+
     <div class="actions-wrapper">
       <slot name="actions"></slot>
     </div>
@@ -11,11 +12,22 @@
 <script>
 export default {
   inject: ['eventBus'],
+  data() {
+    return{
+      x:false
+    }
+
+  },
   created() {
     this.eventBus.$on('update:selected',
-        (item, vm) => {
-          let {width, height, top, left} = vm.$el.getBoundingClientRect()
-          console.log(width, height, top, left)
+        (selectedTab, vm) => {
+          //新增一个[更新UI任务]到队列里面，把代码放到更新UI任务后面；
+          this.$nextTick(()=>{
+            let {width, height, top, left} = vm.$el.getBoundingClientRect()
+            this.$refs.line.style.width = `${width}px`
+            this.$refs.line.style.left = `${left}px`
+          })
+
         }
     )
 
@@ -38,7 +50,6 @@ $blue: blue;
   height: $tab-height;
   justify-content: flex-start;
   align-items: center;
-  border: 1px solid red;
   position: relative;
 
   > .actions-wrapper {
@@ -49,7 +60,7 @@ $blue: blue;
     position: absolute;
     bottom: 0;
     border-bottom: 1px solid $blue;
-    width: 100px;
+    transition: all 1s;
   }
 }
 </style>

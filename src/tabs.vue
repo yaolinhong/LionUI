@@ -33,10 +33,6 @@ export default {
     this.$children.forEach((vm)=>{
       if (vm.$options.name==='g-tabs-head'){
         vm.$children.forEach((childvm)=>{
-          console.log('-----')
-          console.log( childvm.name)
-          console.log(childvm.$el)
-          console.log(this.selected)
           if (childvm.$options.name==='g-tabs-item'&& childvm.name===this.selected){}
         this.eventBus.$emit('update:selected',this.selected,childvm)
         })
