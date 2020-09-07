@@ -36,7 +36,7 @@ export default {
   flex-shrink: 0;
   padding: 0 2em;
   &.active{
-    background-color:red;
+
   }
 }
 

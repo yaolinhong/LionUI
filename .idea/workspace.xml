@@ -22,11 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1c37966-d7e9-4866-840e-685caa734674" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tabs-head.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-head.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs.vue" afterDir="false" />
-    </list>
+    <list default="true" id="f1c37966-d7e9-4866-840e-685caa734674" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,7 +148,7 @@
       <workItem from="1599360831502" duration="7304000" />
       <workItem from="1599373059783" duration="28891000" />
       <workItem from="1599439510573" duration="94000" />
-      <workItem from="1599439616700" duration="4034000" />
+      <workItem from="1599439616700" duration="4560000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1598591260174</created>
@@ -238,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599442549163</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="tab 切换动画完成">
+      <created>1599443962107</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1599443962107</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -271,7 +274,8 @@
     <MESSAGE value="使用chai .expect 添加四个测试用例" />
     <MESSAGE value="添加npm test、npm run dev-test自动测试&#10;接入travis" />
     <MESSAGE value="触发update:selected 事件的时候添加一个item数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="触发update:selected 事件的时候添加一个item数据" />
+    <MESSAGE value="tab 切换动画完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="tab 切换动画完成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1090" y="255" key="#Inspections" timestamp="1599137813787">
@@ -296,11 +300,11 @@
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="1300" y="428" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1979.1152@0.0.1979.1152" timestamp="1599385121175" />
-    <state x="1105" y="88" key="CommitChangelistDialog2" timestamp="1599442548692">
+    <state x="1105" y="88" key="CommitChangelistDialog2" timestamp="1599443961658">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="1089" y="88" key="CommitChangelistDialog2/0.0.1951.1152@0.0.1951.1152" timestamp="1598712953340" />
-    <state x="1105" y="88" key="CommitChangelistDialog2/0.0.1979.1152@0.0.1979.1152" timestamp="1599442548692" />
+    <state x="1105" y="88" key="CommitChangelistDialog2/0.0.1979.1152@0.0.1979.1152" timestamp="1599443961658" />
     <state x="94" y="93" width="1792" height="966" key="DiffContextDialog" timestamp="1599381095377">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
@@ -412,12 +416,12 @@
     </state>
     <state x="1120" y="272" key="run.anything.popup/0.0.1951.1152@0.0.1951.1152" timestamp="1598697705041" />
     <state x="1136" y="272" key="run.anything.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1599396936087" />
-    <state x="1094" y="242" width="682" height="678" key="search.everywhere.popup" timestamp="1599441058760">
+    <state x="1094" y="242" width="682" height="678" key="search.everywhere.popup" timestamp="1599444209326">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="150" y="258" width="672" height="678" key="search.everywhere.popup/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599015960074" />
     <state x="1078" y="242" width="672" height="678" key="search.everywhere.popup/0.0.1951.1152@0.0.1951.1152" timestamp="1599130940281" />
-    <state x="1094" y="242" width="682" height="678" key="search.everywhere.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1599441058760" />
+    <state x="1094" y="242" width="682" height="678" key="search.everywhere.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1599444209326" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
