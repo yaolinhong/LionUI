@@ -12,7 +12,12 @@
 export default {
   inject: ['eventBus'],
   created() {
-    this.eventBus.$emit('update:selected', 'eventBus数据')
+    this.eventBus.$on('update:selected',
+        (item, vm) => {
+          let {width, height, top, left} = vm.$el.getBoundingClientRect()
+          console.log(width, height, top, left)
+        }
+    )
 
   },
   methods: {
@@ -27,7 +32,7 @@ export default {
 
 <style scoped lang="scss">
 $tab-height: 40px;
-$blue:blue;
+$blue: blue;
 .tabs-head {
   display: flex;
   height: $tab-height;
@@ -39,10 +44,11 @@ $blue:blue;
   > .actions-wrapper {
     margin-left: auto;
   }
+
   > .line {
     position: absolute;
     bottom: 0;
-    border-bottom: 1px solid  $blue;
+    border-bottom: 1px solid $blue;
     width: 100px;
   }
 }

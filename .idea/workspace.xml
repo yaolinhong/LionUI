@@ -24,10 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f1c37966-d7e9-4866-840e-685caa734674" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tabs-head.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-head.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tabs-items.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-items.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tabs-pane.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-pane.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +150,7 @@
       <workItem from="1599360831502" duration="7304000" />
       <workItem from="1599373059783" duration="28891000" />
       <workItem from="1599439510573" duration="94000" />
-      <workItem from="1599439616700" duration="2679000" />
+      <workItem from="1599439616700" duration="3078000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1598591260174</created>
@@ -226,7 +222,21 @@
       <option name="project" value="LOCAL" />
       <updated>1598712953895</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="触发update:selected 事件的时候添加一个item数据">
+      <created>1599442483759</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1599442483759</updated>
+    </task>
+    <task id="LOCAL-00012" summary="触发update:selected 事件的时候添加一个item数据">
+      <created>1599442549163</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1599442549163</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -258,7 +268,8 @@
     <MESSAGE value="完成button-group" />
     <MESSAGE value="使用chai .expect 添加四个测试用例" />
     <MESSAGE value="添加npm test、npm run dev-test自动测试&#10;接入travis" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加npm test、npm run dev-test自动测试&#10;接入travis" />
+    <MESSAGE value="触发update:selected 事件的时候添加一个item数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="触发update:selected 事件的时候添加一个item数据" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1090" y="255" key="#Inspections" timestamp="1599137813787">
@@ -283,10 +294,11 @@
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="1300" y="428" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1979.1152@0.0.1979.1152" timestamp="1599385121175" />
-    <state x="1089" y="88" key="CommitChangelistDialog2" timestamp="1598712953340">
-      <screen x="0" y="0" width="1951" height="1152" />
+    <state x="1105" y="88" key="CommitChangelistDialog2" timestamp="1599442548692">
+      <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="1089" y="88" key="CommitChangelistDialog2/0.0.1951.1152@0.0.1951.1152" timestamp="1598712953340" />
+    <state x="1105" y="88" key="CommitChangelistDialog2/0.0.1979.1152@0.0.1979.1152" timestamp="1599442548692" />
     <state x="94" y="93" width="1792" height="966" key="DiffContextDialog" timestamp="1599381095377">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
@@ -361,6 +373,10 @@
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state width="252" height="198" key="ShowFilterAction_Filter_Popup/0.0.1979.1152@0.0.1979.1152" timestamp="1599400398046" />
+    <state x="1334" y="235" key="VCS.ChangeListViewerDialog" timestamp="1599442608779">
+      <screen x="0" y="0" width="1979" height="1152" />
+    </state>
+    <state x="1334" y="235" key="VCS.ChangeListViewerDialog/0.0.1979.1152@0.0.1979.1152" timestamp="1599442608779" />
     <state x="1246" y="501" key="VCS.ChangelistChooser" timestamp="1599204809828">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
@@ -369,6 +385,10 @@
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
     <state x="81" y="312" key="Vcs.Push.Dialog.v2/0.0.1951.1152@0.0.1951.1152" timestamp="1598664330766" />
+    <state x="1083" y="100" width="802" height="958" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599442646790">
+      <screen x="0" y="0" width="1979" height="1152" />
+    </state>
+    <state x="1083" y="100" width="802" height="958" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1979.1152@0.0.1979.1152" timestamp="1599442646790" />
     <state x="63" y="185" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599203700420">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
@@ -381,6 +401,10 @@
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="830" y="163" width="598" height="792" key="find.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1599441079742" />
+    <state x="1243" y="369" key="git4idea.ui.GitUnstashDialog" timestamp="1599442620706">
+      <screen x="0" y="0" width="1979" height="1152" />
+    </state>
+    <state x="1243" y="369" key="git4idea.ui.GitUnstashDialog/0.0.1979.1152@0.0.1979.1152" timestamp="1599442620706" />
     <state x="1136" y="272" key="run.anything.popup" timestamp="1599396936087">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
