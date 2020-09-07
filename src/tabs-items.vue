@@ -1,5 +1,5 @@
 <template>
-  <div class="tabs-item" @click="onclick" :class="classes">
+  <div class="tabs-item" @click="onclick" :class="classes" :data-name="name">
     <g-icon class="icon" v-if="icon" :name="icon"></g-icon>
     <slot></slot>
 
@@ -73,6 +73,7 @@ $disabled-text-color:grey;
   }
 &.disabled{
   color:$disabled-text-color ;
+  cursor: not-allowed;
 }
 }
 

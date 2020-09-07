@@ -23,10 +23,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1c37966-d7e9-4866-840e-685caa734674" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/button-demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/components/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/components/button.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tabs-body.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tabs-head.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tabs-item.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tabs-pane.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tabs.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/component/button.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/get-started/start.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/get-started/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/install/install.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/install/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button-group.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button-group.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/icon.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tabs-items.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-items.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tabs-pane.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-pane.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +78,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.54" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
@@ -69,16 +86,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\1\Desktop\LionUI\docs\component" />
       <recent name="C:\Users\1\Desktop\LionUI\docs" />
       <recent name="C:\Users\1\Desktop\LionUI" />
       <recent name="C:\Users\1\Desktop\LionUI\test" />
       <recent name="C:\Users\1\Desktop\LionUI\dist" />
-      <recent name="C:\Users\1\Desktop\LionUI\node_modules" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\1\Desktop\LionUI\src" />
-      <recent name="C:\Users\1\Desktop\LionUI\test" />
       <recent name="C:\Users\1\Desktop\LionUI" />
+      <recent name="C:\Users\1\Desktop\LionUI\docs\.vuepress" />
+      <recent name="C:\Users\1\Desktop\LionUI\docs" />
+      <recent name="C:\Users\1\Desktop\LionUI\test" />
+      <recent name="C:\Users\1\Desktop\LionUI\src" />
     </key>
   </component>
   <component name="RunManager" selected="Karma.事件.支持 change/input/focus/blur 事件">
@@ -153,7 +172,8 @@
       <workItem from="1599360831502" duration="7304000" />
       <workItem from="1599373059783" duration="28891000" />
       <workItem from="1599439510573" duration="94000" />
-      <workItem from="1599439616700" duration="5192000" />
+      <workItem from="1599439616700" duration="8449000" />
+      <workItem from="1599465030010" duration="14124000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1598591260174</created>
@@ -253,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599444505129</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="disabled功能完成">
+      <created>1599444868672</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1599444868672</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -288,7 +315,8 @@
     <MESSAGE value="触发update:selected 事件的时候添加一个item数据" />
     <MESSAGE value="tab 切换动画完成" />
     <MESSAGE value="完善tab样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善tab样式" />
+    <MESSAGE value="disabled功能完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="disabled功能完成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1090" y="255" key="#Inspections" timestamp="1599137813787">
@@ -309,15 +337,19 @@
     <state x="690" y="371" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1951.1152@0.0.1951.1152" timestamp="1598925827231" />
     <state x="700" y="371" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1979.1152/2560.0.974.800@0.0.1979.1152" timestamp="1599316014349" />
     <state x="700" y="371" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1979.1152@0.0.1979.1152" timestamp="1599384667858" />
+    <state x="1219" y="323" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599475971467">
+      <screen x="0" y="0" width="1979" height="1152" />
+    </state>
+    <state x="1219" y="323" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1979.1152@0.0.1979.1152" timestamp="1599475971467" />
     <state x="1300" y="428" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599385121175">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="1300" y="428" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1979.1152@0.0.1979.1152" timestamp="1599385121175" />
-    <state x="1105" y="88" key="CommitChangelistDialog2" timestamp="1599444504561">
+    <state x="1105" y="88" key="CommitChangelistDialog2" timestamp="1599444868162">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="1089" y="88" key="CommitChangelistDialog2/0.0.1951.1152@0.0.1951.1152" timestamp="1598712953340" />
-    <state x="1105" y="88" key="CommitChangelistDialog2/0.0.1979.1152@0.0.1979.1152" timestamp="1599444504561" />
+    <state x="1105" y="88" key="CommitChangelistDialog2/0.0.1979.1152@0.0.1979.1152" timestamp="1599444868162" />
     <state x="94" y="93" width="1792" height="966" key="DiffContextDialog" timestamp="1599381095377">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
@@ -416,10 +448,10 @@
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="-6" y="0" width="1002" height="1158" key="dock-window-1/0.0.1979.1152@0.0.1979.1152" timestamp="1599208107334" />
-    <state x="830" y="163" width="598" height="792" key="find.popup" timestamp="1599441079742">
+    <state x="830" y="163" width="598" height="792" key="find.popup" timestamp="1599480198387">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
-    <state x="830" y="163" width="598" height="792" key="find.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1599441079742" />
+    <state x="830" y="163" width="598" height="792" key="find.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1599480198387" />
     <state x="1243" y="369" key="git4idea.ui.GitUnstashDialog" timestamp="1599442620706">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
@@ -429,19 +461,19 @@
     </state>
     <state x="1120" y="272" key="run.anything.popup/0.0.1951.1152@0.0.1951.1152" timestamp="1598697705041" />
     <state x="1136" y="272" key="run.anything.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1599396936087" />
-    <state x="1094" y="242" width="682" height="678" key="search.everywhere.popup" timestamp="1599444209326">
+    <state x="1094" y="242" width="682" height="678" key="search.everywhere.popup" timestamp="1599480191694">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="150" y="258" width="672" height="678" key="search.everywhere.popup/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599015960074" />
     <state x="1078" y="242" width="672" height="678" key="search.everywhere.popup/0.0.1951.1152@0.0.1951.1152" timestamp="1599130940281" />
-    <state x="1094" y="242" width="682" height="678" key="search.everywhere.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1599444209326" />
+    <state x="1094" y="242" width="682" height="678" key="search.everywhere.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1599480191694" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/button-group.vue</url>
-          <line>30</line>
+          <line>35</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

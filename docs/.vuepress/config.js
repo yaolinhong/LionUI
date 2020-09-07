@@ -1,13 +1,28 @@
 module.exports = {
-    title: 'Hello VuePress',
-    description: 'Just playing around',
+    title: 'Lion UI',
+    description: '一个好用的UI框架',
     themeConfig: {
-        sidebar: [
-            ['/get-started/start.md', '快速上手'],
-            ['/install/install.md', '安装'],
-            ['/component/button.md', '组件'],
+        nav: [
+            {text: '主页', link: '/'},
+            {text: '文档', link: '/guide/'},
+            {text: '交流', link: 'https://google.com'},
         ],
-        displayAllHeaders: true // 默认值：false
+        sidebar: [
+            {
+                title: '入门',
+                collapsable: false,
+                children: [
+                    '/install/',
+                    '/get-started/',
+                ]
+            },
+            {
+                title: '组件',
+                collapsable: false,
+                children: [
+                    '/components/button',
+                ]
+            }
 
-    }
-}
+    ]
+}}
