@@ -1,0 +1,17 @@
+Index: src/icon.vue
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><template>\n  <svg class=\"g-icon\">\n    <use :xlink:href=`icon-${{name}}`></use>\n  </svg>\n</template>\n<script>\nimport \"./svg\"\nexport default {\n  name:\"g-icon\",\n  props:['name'],\n\n}\n</script>\n<style lang=\"scss\" scoped>\n.g-icon{\n  height: 1em;width: 1em;\n}\n</style>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/icon.vue	(revision 8a2b98632b4e173cefe13c2040efef7c7ac696db)
++++ src/icon.vue	(date 1599485004003)
+@@ -1,6 +1,6 @@
+ <template>
+   <svg class="g-icon">
+-    <use :xlink:href=`icon-${{name}}`></use>
++    <use :xlink:href=`icon-${name}`></use>
+   </svg>
+ </template>
+ <script>

@@ -23,22 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1c37966-d7e9-4866-840e-685caa734674" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/input-demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/Lion.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/components/input.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/introduce/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/popover.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/components/button-demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/components/button-demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/components/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/components/button.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/components/button.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/get-started/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/get-started/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/install/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/install/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icon.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/icon.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +160,10 @@
       <workItem from="1599439510573" duration="94000" />
       <workItem from="1599439616700" duration="8449000" />
       <workItem from="1599465030010" duration="14124000" />
-      <workItem from="1599490077678" duration="1005000" />
+      <workItem from="1599490077678" duration="1594000" />
+      <workItem from="1599877774627" duration="26000" />
+      <workItem from="1599877812848" duration="6000" />
+      <workItem from="1599877832404" duration="10231000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1598591260174</created>
@@ -279,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599444868672</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="完成了input的文档">
+      <created>1599491402800</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1599491402800</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -315,7 +313,8 @@
     <MESSAGE value="tab 切换动画完成" />
     <MESSAGE value="完善tab样式" />
     <MESSAGE value="disabled功能完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="disabled功能完成" />
+    <MESSAGE value="完成了input的文档" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成了input的文档" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1090" y="255" key="#Inspections" timestamp="1599137813787">
@@ -344,11 +343,11 @@
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="1300" y="428" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1979.1152@0.0.1979.1152" timestamp="1599385121175" />
-    <state x="1105" y="88" key="CommitChangelistDialog2" timestamp="1599444868162">
+    <state x="1105" y="88" key="CommitChangelistDialog2" timestamp="1599491401777">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="1089" y="88" key="CommitChangelistDialog2/0.0.1951.1152@0.0.1951.1152" timestamp="1598712953340" />
-    <state x="1105" y="88" key="CommitChangelistDialog2/0.0.1979.1152@0.0.1979.1152" timestamp="1599444868162" />
+    <state x="1105" y="88" key="CommitChangelistDialog2/0.0.1979.1152@0.0.1979.1152" timestamp="1599491401777" />
     <state x="94" y="93" width="1792" height="966" key="DiffContextDialog" timestamp="1599381095377">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
