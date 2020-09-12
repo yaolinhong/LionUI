@@ -1,13 +1,13 @@
 <template>
   <div class="popover-wrapper">
-    <div ref="contentWrapper" class="content-wrapper"
+    <div ref="contentWrapper" class="content-wrapper" :class="`position-${position}`"
          style="position: absolute"
          v-if="visbile" @click.stop>
-        <slot name="content"></slot>
+      <slot name="content"></slot>
     </div>
     <span style="display: inline-block;position: relative;"
           ref="button"
-          @click.stop="showPopover" >
+          @click.stop="showPopover">
       <slot></slot>
     </span>
   </div>
@@ -17,6 +17,12 @@
 
 <script>
 export default {
+  props: {
+    position: {
+      type: String,
+      default: 'top',
+    }
+  },
   data() {
     return {
       visbile: false
@@ -28,19 +34,37 @@ export default {
       this.visbile = false
     },
     computedContent() {
-      setTimeout(() => {
-        const {contentWrapper} = this.$refs
-        if (contentWrapper !== undefined && this.visbile === true) {
-          let {left, top} = this.$refs.button.getBoundingClientRect()
-          this.$refs.contentWrapper.style.left = left + window.scrollX +"px";
-          this.$refs.contentWrapper.style.top = top + window.scrollY+ "px";
-          document.body.appendChild(contentWrapper)}}, 0)
+      const {contentWrapper} = this.$refs
+      document.body.appendChild(contentWrapper)
+      const height2 = contentWrapper.getBoundingClientRect().height
+      if (this.visbile === true) {
+        let {left, top, height, width} = this.$refs.button.getBoundingClientRect()
+        if (this.position === "top") {
+          this.$refs.contentWrapper.style.left = left + window.scrollX + "px";
+          this.$refs.contentWrapper.style.top = top + window.scrollY + "px";
+        } else if (this.position === "bottom") {
+          this.$refs.contentWrapper.style.left = left + window.scrollX + "px";
+          this.$refs.contentWrapper.style.top = top + height + window.scrollY + "px";
+        } else if (this.position === "left") {
+          this.$refs.contentWrapper.style.left = left + window.scrollX + "px";
+          this.$refs.contentWrapper.style.top = top +(height-height2)/ 2 + window.scrollY + "px";
+        } else if (this.position === "right") {
+          this.$refs.contentWrapper.style.left = left + width + window.scrollX + "px";
+          this.$refs.contentWrapper.style.top = top +(height-height2) / 2 + window.scrollY + "px";
+        }
+      }
     },
+
     showPopover() {
       if (this.visbile === false) {
         this.visbile = true
-        this.computedContent()
-        document.addEventListener("click", this.closePopover)
+        this.$nextTick(
+            () => {
+              this.computedContent()
+              document.addEventListener("click", this.closePopover)
+            }
+        )
+
       } else {
         this.closePopover()
       }
@@ -51,10 +75,10 @@ export default {
 
 
 <style lang="scss">
-$border-color:#333;
-$border-radius:4px;
+$border-color: #333;
+$border-radius: 4px;
 .popover-wrapper {
-display: inline-block;
+  display: inline-block;
   vertical-align: top;
   position: relative;
 }
@@ -64,33 +88,92 @@ display: inline-block;
 }
 
 .content-wrapper {
-  border: 1px solid $border-color;
   position: absolute;
-  transform: translateY(-100%);
-  box-shadow: 0 0 3px rgba(0,0,0,0.5);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
   border-radius: $border-radius;
-  filter:drop-shadow(0 1px 1px rgba(0,0,0,0.5));
-  background-color: white;
-  margin-top: -10px;
+  border: 1px solid $border-color;
+  word-break: break-all;
   padding: 0.5em 1em;
   max-width: 20em;
-  word-break: break-all;
-  &::before,&::after{
-    content: '';display: block;
-    width: 0;height: 0;
-    border-radius: $border-radius;
-    position: absolute;left: 10px;
-    border:10px solid transparent;
-  }
-  &::before{
-   top: 100%;
-    border-top-color:$border-color ;
-  }
-  &::after{
-    top: calc(100% - 1.5px);
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.5));
+  background-color: white;
 
+  &::before, &::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: $border-radius;
+    position: absolute;
+    border: 10px solid transparent;
+  }
+}
+
+.position-top {
+  transform: translateY(-100%);
+  margin-top: -10px;
+  left: 10px;
+
+  &::before {
+    top: 100%;
+    border-top-color: $border-color;
+  }
+
+  &::after {
+    top: calc(100% - 1.5px);
     border-top-color: white;
   }
 }
 
+.position-bottom {
+  margin-top: 10px;
+  left: 10px;
+
+  &::before {
+    bottom: 100%;
+    border-bottom-color: $border-color;
+  }
+
+  &::after {
+    bottom: calc(100% - 1.5px);
+    border-bottom-color: white;
+  }
+}
+
+.position-left {
+  transform: translateX(-100%);
+  margin-left: -10px;
+
+  &::before {
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    border-left-color: $border-color;
+  }
+
+  &::after {
+    left: calc(100% - 1.5px);
+    top: 50%;
+    transform: translateY(-50%);
+    border-left-color: white;
+  }
+}
+
+.position-right {
+  margin-left: 10px;
+
+  &::before {
+    left: 0;
+    top: 50%;
+    transform: translate(-100%, -50%);
+    border-right-color: $border-color;
+  }
+
+  &::after {
+    left: 0;
+    top: 50%;
+    transform: translate(calc(-100% + 1.5px), -50%);
+    border-right-color: white;
+  }
+}
 </style>

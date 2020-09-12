@@ -42,13 +42,21 @@
     <br>
     <br>
     <br>
-    <div class="popover">
-        <g-popover>
+    <div class="popover" style="margin-left: 100px">
+        <g-popover position="bottom">
             <template slot="content">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadfsfaaaaaaaaaaaaaaaaaaaaa</template>
             <button>按钮1</button>
         </g-popover>
         <g-popover>
             <button>按钮2</button>
+            <template slot="content">浮窗内容</template>
+        </g-popover>
+        <g-popover position="left">
+            <button>按钮3</button>
+            <template slot="content">浮窗内容</template>
+        </g-popover>
+        <g-popover position="right">
+            <button>按钮3</button>
             <template slot="content">浮窗内容</template>
         </g-popover>
     </div>

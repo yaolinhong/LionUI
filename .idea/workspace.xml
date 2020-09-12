@@ -163,7 +163,7 @@
       <workItem from="1599877774627" duration="26000" />
       <workItem from="1599877812848" duration="6000" />
       <workItem from="1599877832404" duration="10231000" />
-      <workItem from="1599905242182" duration="7307000" />
+      <workItem from="1599905242182" duration="16235000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1598591260174</created>
@@ -277,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599491402800</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="添加属性">
+      <created>1599917401830</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1599917401830</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -314,7 +321,8 @@
     <MESSAGE value="完善tab样式" />
     <MESSAGE value="disabled功能完成" />
     <MESSAGE value="完成了input的文档" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成了input的文档" />
+    <MESSAGE value="添加属性" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加属性" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1090" y="255" key="#Inspections" timestamp="1599137813787">
@@ -343,11 +351,11 @@
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="1300" y="428" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1979.1152@0.0.1979.1152" timestamp="1599385121175" />
-    <state x="1105" y="88" key="CommitChangelistDialog2" timestamp="1599491401777">
+    <state x="1105" y="88" key="CommitChangelistDialog2" timestamp="1599917401277">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="1089" y="88" key="CommitChangelistDialog2/0.0.1951.1152@0.0.1951.1152" timestamp="1598712953340" />
-    <state x="1105" y="88" key="CommitChangelistDialog2/0.0.1979.1152@0.0.1979.1152" timestamp="1599491401777" />
+    <state x="1105" y="88" key="CommitChangelistDialog2/0.0.1979.1152@0.0.1979.1152" timestamp="1599917401277" />
     <state x="94" y="93" width="1792" height="966" key="DiffContextDialog" timestamp="1599381095377">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
@@ -473,12 +481,6 @@
           <url>file://$PROJECT_DIR$/src/button-group.vue</url>
           <line>35</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/popover.vue</url>
-          <line>53</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
