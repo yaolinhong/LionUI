@@ -2,12 +2,14 @@
   <div class="popover-wrapper">
     <div ref="contentWrapper" class="content-wrapper"
          style="position: absolute"
-         v-if="visbile">
-      <div>
+         v-if="visbile" @click.stop>
         <slot name="content"></slot>
-      </div>
     </div>
-    <button @click.stop="showContent" ref="button" style="position: relative">点击</button>
+    <span style="display: inline-block;position: relative;"
+          ref="button"
+          @click.stop="showPopover" >
+      <slot></slot>
+    </span>
   </div>
 
 
@@ -21,22 +23,27 @@ export default {
     }
   },
   methods: {
-    handleClick() {
-      this.visbile = !this.visbile
-      document.removeEventListener("click", this.handleClick)
+    closePopover() {
+      document.removeEventListener("click", this.closePopover)
+      this.visbile = false
     },
-    showContent: function () {
-      this.visbile = !this.visbile
-        setTimeout(() => {
-          const {contentWrapper} = this.$refs
-          if(contentWrapper!==undefined){
+    computedContent() {
+      setTimeout(() => {
+        const {contentWrapper} = this.$refs
+        if (contentWrapper !== undefined && this.visbile === true) {
           let {left, top} = this.$refs.button.getBoundingClientRect()
-          this.$refs.contentWrapper.style.left = left + "px";
-          this.$refs.contentWrapper.style.top = top + "px";
-          document.body.appendChild(contentWrapper)
-          console.log('添加了监听器')
-          document.addEventListener("click", this.handleClick)}
-      }, 0)
+          this.$refs.contentWrapper.style.left = left + window.scrollX +"px";
+          this.$refs.contentWrapper.style.top = top + window.scrollY+ "px";
+          document.body.appendChild(contentWrapper)}}, 0)
+    },
+    showPopover() {
+      if (this.visbile === false) {
+        this.visbile = true
+        this.computedContent()
+        document.addEventListener("click", this.closePopover)
+      } else {
+        this.closePopover()
+      }
     }
   }
 }
@@ -44,20 +51,46 @@ export default {
 
 
 <style lang="scss">
+$border-color:#333;
+$border-radius:4px;
 .popover-wrapper {
-  min-height: 1.2em;
-  min-width: 200px;
+display: inline-block;
+  vertical-align: top;
+  position: relative;
 }
 
 .button {
-  min-height: 1.2em;
-  min-width: 50px;
+  min-height: 1.0em;
 }
 
 .content-wrapper {
-  border: 1px solid red;
+  border: 1px solid $border-color;
   position: absolute;
   transform: translateY(-100%);
+  box-shadow: 0 0 3px rgba(0,0,0,0.5);
+  border-radius: $border-radius;
+  filter:drop-shadow(0 1px 1px rgba(0,0,0,0.5));
+  background-color: white;
+  margin-top: -10px;
+  padding: 0.5em 1em;
+  max-width: 20em;
+  word-break: break-all;
+  &::before,&::after{
+    content: '';display: block;
+    width: 0;height: 0;
+    border-radius: $border-radius;
+    position: absolute;left: 10px;
+    border:10px solid transparent;
+  }
+  &::before{
+   top: 100%;
+    border-top-color:$border-color ;
+  }
+  &::after{
+    top: calc(100% - 1.5px);
+
+    border-top-color: white;
+  }
 }
 
 </style>

@@ -23,10 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1c37966-d7e9-4866-840e-685caa734674" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/popover.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/popover.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/popover.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,6 +163,7 @@
       <workItem from="1599877774627" duration="26000" />
       <workItem from="1599877812848" duration="6000" />
       <workItem from="1599877832404" duration="10231000" />
+      <workItem from="1599905242182" duration="7307000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1598591260174</created>
@@ -473,6 +473,12 @@
           <url>file://$PROJECT_DIR$/src/button-group.vue</url>
           <line>35</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/popover.vue</url>
+          <line>53</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

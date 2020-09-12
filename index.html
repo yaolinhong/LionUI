@@ -42,12 +42,16 @@
     <br>
     <br>
     <br>
-    <g-popover>
-       <template slot="content">浮窗内容</template>
-    </g-popover>
-    <g-popover>
-        <template slot="content">浮窗内容</template>
-    </g-popover>
+    <div class="popover">
+        <g-popover>
+            <template slot="content">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadfsfaaaaaaaaaaaaaaaaaaaaa</template>
+            <button>按钮1</button>
+        </g-popover>
+        <g-popover>
+            <button>按钮2</button>
+            <template slot="content">浮窗内容</template>
+        </g-popover>
+    </div>
     <br>
     <br>
     <br>
@@ -58,7 +62,7 @@
                 <button>设置</button>
             </template>
             <g-tabs-item name="woman" icon="warning" :disabled=true>美女</g-tabs-item>
-            <g-tabs-item name="finace" >财经</g-tabs-item>
+            <g-tabs-item name="finace">财经</g-tabs-item>
             <g-tabs-item name="sports">体育</g-tabs-item>
 
         </g-tabs-head>
@@ -191,7 +195,7 @@
     </div>
 
 
-
+</div>
 </body>
 <script src="./src/app.js"></script>
 </html>
@@ -200,4 +204,10 @@
     margin: 20px;
   }
 
+  .popover {
+    display: flex;
+    min-height: 40px;
+    justify-content: flex-start;
+    overflow: hidden;
+  }
 </style>
