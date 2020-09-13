@@ -37,22 +37,17 @@ export default {
       const {contentWrapper} = this.$refs
       document.body.appendChild(contentWrapper)
       const height2 = contentWrapper.getBoundingClientRect().height
-      if (this.visbile === true) {
-        let {left, top, height, width} = this.$refs.button.getBoundingClientRect()
-        if (this.position === "top") {
-          this.$refs.contentWrapper.style.left = left + window.scrollX + "px";
-          this.$refs.contentWrapper.style.top = top + window.scrollY + "px";
-        } else if (this.position === "bottom") {
-          this.$refs.contentWrapper.style.left = left + window.scrollX + "px";
-          this.$refs.contentWrapper.style.top = top + height + window.scrollY + "px";
-        } else if (this.position === "left") {
-          this.$refs.contentWrapper.style.left = left + window.scrollX + "px";
-          this.$refs.contentWrapper.style.top = top +(height-height2)/ 2 + window.scrollY + "px";
-        } else if (this.position === "right") {
-          this.$refs.contentWrapper.style.left = left + width + window.scrollX + "px";
-          this.$refs.contentWrapper.style.top = top +(height-height2) / 2 + window.scrollY + "px";
-        }
+      let {left, top, height, width} = this.$refs.button.getBoundingClientRect()
+      let positions={
+        top:{left: left + window.scrollX + "px", top:top + window.scrollY + "px"},
+        bottom:{left:left + window.scrollX + "px", top:top + height + window.scrollY + "px"},
+        left:{left:left + window.scrollX + "px", top:top +(height-height2)/ 2 + window.scrollY + "px"},
+        right:{left:left + width + window.scrollX + "px",
+          top:top +(height-height2) / 2 + window.scrollY + "px"}
       }
+      contentWrapper.style.left=positions[this.position].left
+      contentWrapper.style.top=positions[this.position].top
+
     },
 
     showPopover() {
