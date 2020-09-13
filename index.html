@@ -38,12 +38,21 @@
 </head>
 <body>
 <div id="app">
+    <div class="collapse">
+        <g-collapse>
+            <g-collapse-item title="title1">111</g-collapse-item>
+            <g-collapse-item title="title2">222</g-collapse-item>
+            <g-collapse-item title="title3">333</g-collapse-item>
+
+        </g-collapse>
+
+    </div>
     <br>
     <br>
     <br>
     <br>
     <div class="popover" style="margin-left: 100px">
-        <g-popover position="bottom">
+        <g-popover position="bottom" trigger="hover">
             <template slot="content">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadfsfaaaaaaaaaaaaaaaaaaaaa</template>
             <button>按钮1</button>
         </g-popover>
@@ -55,8 +64,8 @@
             <button>按钮3</button>
             <template slot="content">浮窗内容</template>
         </g-popover>
-        <g-popover position="right">
-            <button>按钮3</button>
+        <g-popover position="right" trigger="click">
+            <button>按钮4</button>
             <template slot="content">浮窗内容</template>
         </g-popover>
     </div>
@@ -211,7 +220,10 @@
   .box {
     margin: 20px;
   }
-
+.collapse{
+  margin-left: 50px;
+  margin-top: 100px;
+}
   .popover {
     display: flex;
     min-height: 40px;
