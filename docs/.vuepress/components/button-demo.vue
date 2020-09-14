@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="wrapper">
     <g-button>默认按钮</g-button>
     <g-button icon="setting" icon-position="right">设置</g-button>
     <g-button :loading="loading"  icon="setting"
@@ -35,5 +35,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+> .g-button{
+  margin-bottom: 10px}
+}
 </style>

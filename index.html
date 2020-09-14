@@ -38,6 +38,113 @@
 </head>
 <body>
 <div id="app">
+    <div class="box">
+        <div class="box">
+            响应式
+            <g-row>
+                <g-col span="12" :pc="{span:12,offset:0}">
+                </g-col>
+                <g-col span="6" offset="6" :pc="{span:12,offset:0}">
+                </g-col>
+            </g-row>
+            无gutter
+            <g-row>
+                <g-col span="12">
+                    <div class="demo"></div>
+                </g-col>
+                <g-col span="6">
+                    <div class="demo"></div>
+                </g-col>
+                <g-col span="6">
+                    <div class="demo"></div>
+                </g-col>
+            </g-row>
+            <g-row>
+                <g-col span="8">
+                    <div class="demo"></div>
+                </g-col>
+                <g-col span="8">
+                    <div class="demo"></div>
+                </g-col>
+                <g-col span="8">
+                    <div class="demo"></div>
+                </g-col>
+            </g-row>
+            <g-row>
+                <g-col span="6">
+                    <div class="demo"></div>
+                </g-col>
+                <g-col span="6">
+                    <div class="demo"></div>
+                </g-col>
+                <g-col span="6">
+                    <div class="demo"></div>
+                </g-col>
+                <g-col span="6">
+                    <div class="demo"></div>
+                </g-col>
+            </g-row>
+            <g-row>
+                <g-col span="2">
+                    <div class="demo"></div>
+                </g-col>
+                <g-col span="22">
+                    <div class="demo"></div>
+                </g-col>
+            </g-row>
+            <br>
+            <hr>
+        </div>
+        <div class="box">
+            gutter=20
+            <g-row gutter="20">
+                <g-col span="12">
+                    <div class="demo"></div>
+                </g-col>
+                <g-col span="6">
+                    <div class="demo"></div>
+                </g-col>
+                <g-col span="6">
+                    <div class="demo"></div>
+                </g-col>
+            </g-row>
+            <g-row gutter="20">
+                <g-col span="8">
+                    <div class="demo"></div>
+                </g-col>
+                <g-col span="8">
+                    <div class="demo"></div>
+                </g-col>
+                <g-col span="8">
+                    <div class="demo"></div>
+                </g-col>
+            </g-row>
+            <g-row gutter="20">
+                <g-col span="6">
+                    <div class="demo"></div>
+                </g-col>
+                <g-col span="6">
+                    <div class="demo"></div>
+                </g-col>
+                <g-col span="6">
+                    <div class="demo"></div>
+                </g-col>
+                <g-col span="6">
+                    <div class="demo"></div>
+                </g-col>
+            </g-row>
+            <g-row gutter="20">
+                <g-col span="2">
+                    <div class="demo"></div>
+                </g-col>
+                <g-col span="22">
+                    <div class="demo"></div>
+                </g-col>
+            </g-row>
+            <br>
+            <hr>
+        </div>
+    </div>
     <div class="collapse">
 
         <g-collapse :selected-tag.sync="selectedTag">
@@ -45,6 +152,7 @@
             <g-collapse-item title="title2" name="2">222</g-collapse-item>
             <g-collapse-item title="title3" name="3">333</g-collapse-item>
         </g-collapse>
+        single
         <g-collapse :selected-tag.sync="selectedTag" :single="true" >
             <g-collapse-item title="title1" name="1">111</g-collapse-item>
             <g-collapse-item title="title2" name="2">222</g-collapse-item>
@@ -107,114 +215,6 @@
         </g-layout>
         <g-footer>footer</g-footer>
     </g-layout>
-    <div class="box">
-        响应式
-        <g-row>
-            <g-col span="12" :pc="{span:12,offset:0}">
-                <div class="demo"></div>
-            </g-col>
-            <g-col span="6" offset="6" :pc="{span:12,offset:0}">
-                <div class="demo"></div>
-            </g-col>
-        </g-row>
-        无gutter
-        <g-row>
-            <g-col span="12">
-                <div class="demo"></div>
-            </g-col>
-            <g-col span="6">
-                <div class="demo"></div>
-            </g-col>
-            <g-col span="6">
-                <div class="demo"></div>
-            </g-col>
-        </g-row>
-        <g-row>
-            <g-col span="8">
-                <div class="demo"></div>
-            </g-col>
-            <g-col span="8">
-                <div class="demo"></div>
-            </g-col>
-            <g-col span="8">
-                <div class="demo"></div>
-            </g-col>
-        </g-row>
-        <g-row>
-            <g-col span="6">
-                <div class="demo"></div>
-            </g-col>
-            <g-col span="6">
-                <div class="demo"></div>
-            </g-col>
-            <g-col span="6">
-                <div class="demo"></div>
-            </g-col>
-            <g-col span="6">
-                <div class="demo"></div>
-            </g-col>
-        </g-row>
-        <g-row>
-            <g-col span="2">
-                <div class="demo"></div>
-            </g-col>
-            <g-col span="22">
-                <div class="demo"></div>
-            </g-col>
-        </g-row>
-        <br>
-        <hr>
-    </div>
-    <div class="box">
-        gutter=20
-        <g-row gutter="20">
-            <g-col span="12">
-                <div class="demo"></div>
-            </g-col>
-            <g-col span="6">
-                <div class="demo"></div>
-            </g-col>
-            <g-col span="6">
-                <div class="demo"></div>
-            </g-col>
-        </g-row>
-        <g-row gutter="20">
-            <g-col span="8">
-                <div class="demo"></div>
-            </g-col>
-            <g-col span="8">
-                <div class="demo"></div>
-            </g-col>
-            <g-col span="8">
-                <div class="demo"></div>
-            </g-col>
-        </g-row>
-        <g-row gutter="20">
-            <g-col span="6">
-                <div class="demo"></div>
-            </g-col>
-            <g-col span="6">
-                <div class="demo"></div>
-            </g-col>
-            <g-col span="6">
-                <div class="demo"></div>
-            </g-col>
-            <g-col span="6">
-                <div class="demo"></div>
-            </g-col>
-        </g-row>
-        <g-row gutter="20">
-            <g-col span="2">
-                <div class="demo"></div>
-            </g-col>
-            <g-col span="22">
-                <div class="demo"></div>
-            </g-col>
-        </g-row>
-        <br>
-        <hr>
-    </div>
-
 
 </div>
 </body>
@@ -226,7 +226,7 @@
   }
 .collapse{
   margin-left: 50px;
-  margin-top: 100px;
+  margin-top: 10px
 }
   .popover {
     display: flex;

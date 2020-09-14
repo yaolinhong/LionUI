@@ -48,6 +48,7 @@ $font-size: 12px;
   font-size: $font-size;
   display: inline-flex;
   align-items: center;
+  padding-bottom: 10px;
 
   > :not(:last-child) {
     margin-right: .5em;

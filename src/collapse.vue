@@ -1,26 +1,22 @@
 <template>
   <div class="collapse">
-    {{ selectedTag }}
     <slot></slot>
   </div>
 </template>
-
 <script>
-
 import Vue from 'vue'
-
 export default {
   props: {
-    selectedTag : {
+    selectedTag: {
       type: String,
     },
-    single:{
-      default:false,
+    single: {
+      default: false,
     }
   },
   data() {
     return {
-      mySelectedTag: {type:String},
+      mySelectedTag: {type: String},
       eventBus: new Vue()
     }
   },
@@ -29,14 +25,15 @@ export default {
   },
 
   methods: {
-    showContent(selectedName) {
-      this.mySelectedTag=selectedName
-      this.$emit('update:selectedTag',selectedName)
+    updateSelectedTag(selectedName) {
+      this.mySelectedTag = selectedName
+      this.$emit('update:selectedTag', selectedName)
     },
-    singleToggle(){
-      if(this.single===true){
-      this.eventBus.$on('update:selectedTag', this.showContent)
-    }}
+    singleToggle() {
+      if (this.single === true) {
+        this.eventBus.$on('update:selectedTag', this.updateSelectedTag)
+      }
+    }
   },
   mounted() {
     this.eventBus.$emit('update:selectedTag', this.selectedTag)
@@ -44,7 +41,6 @@ export default {
 
   }
 }
-
 </script>
 
 <style lang="scss" scoped>

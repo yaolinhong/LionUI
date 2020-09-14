@@ -1,14 +1,11 @@
 <template>
   <div class="box">
-    <g-input v-model=" message "></g-input> <button @click="message+=1">+1</button>
-    <p>{{ message }}</p>
+    <g-input v-model=" message "></g-input>
+    <div class="button"><button @click="message+=1">+1</button>{{message}}</div>
     <g-input></g-input>
-    <br>
     <g-input value="disabled输入框（不能focus）" :disabled="true"></g-input>
-    <br>
-    <g-input value="只读输入框" :read-only="true"></g-input>
-    <br>
-    <g-input value="错误输入框" error="错误信息"></g-input>
+    <g-input value="只读输入框(可以focus)" :read-only="true"></g-input>
+    <g-input value="错误输入框" error="可编辑错误信息"></g-input>
   </div>
 </template>
 
@@ -36,7 +33,6 @@ export default {
 .box {
   display: flex;
   flex-direction: column;
-> button {width: 2em}
-}
+.button {margin-bottom:10px} }
 
 </style>

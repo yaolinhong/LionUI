@@ -30,16 +30,18 @@ export default {
   inject: ['eventBus'],
   methods: {
     showContent() {
-      if (this.$parent.single===true){this.eventBus.$emit('update:selectedTag', this.name)
-
-      }else {this.mySelected=!this.mySelected}
+      if (this.$parent.single === true) {
+        this.eventBus.$emit('update:selectedTag', this.name)
+      } else {this.mySelected = !this.mySelected}
+      //如果不是single，那么就成为一个独立组件；自己修改mySelected数据；
     },
   },
   mounted() {
-    if (this.$parent.single===true){
-      this.eventBus.$on('update:selectedTag', (selectedTag) => {
-        this.mySelected = selectedTag === this.name;})}
+    this.eventBus.$on('update:selectedTag', (selectedTag) => {
+      this.mySelected = selectedTag === this.name;//selectedTag和此组建的name属性相同mySelected为true
+    })
   }
+
 }
 
 </script>

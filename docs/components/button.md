@@ -7,7 +7,7 @@ title: Button
 按钮组件功能及用法如下，支持
 * 添加icon
 * 设置icon位置（left、right）
-* 设置加载状态
+* 设置加载状态动画
 
 
 2.组件效果

@@ -13,6 +13,7 @@
 <script>
 
 export default {
+  name:'g-sider',
   props: {
     width: {
       type: [Number, String],
@@ -42,10 +43,11 @@ export default {
   width: 2em;
   background: #000;
   color: #dddddd;
+  padding-right: 10px;
 }
 
 .nav {
-  background: #dddddd;
+  background: white;
   flex-grow: 1;
 }
 
