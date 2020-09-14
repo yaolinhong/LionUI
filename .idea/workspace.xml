@@ -23,13 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1c37966-d7e9-4866-840e-685caa734674" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collapse-item.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collapse.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/popover.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/popover.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/popover.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collapse-item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/collapse-item.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collapse.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/collapse.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +167,10 @@
       <workItem from="1599877832404" duration="10231000" />
       <workItem from="1599905242182" duration="16521000" />
       <workItem from="1599963004379" duration="6679000" />
-      <workItem from="1600005861399" duration="3290000" />
+      <workItem from="1600005861399" duration="3364000" />
+      <workItem from="1600010307757" duration="8935000" />
+      <workItem from="1600051858324" duration="3311000" />
+      <workItem from="1600055955310" duration="4117000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1598591260174</created>
@@ -460,10 +461,10 @@
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="-6" y="0" width="1002" height="1158" key="dock-window-1/0.0.1979.1152@0.0.1979.1152" timestamp="1599208107334" />
-    <state x="830" y="163" width="598" height="792" key="find.popup" timestamp="1599480198387">
+    <state x="830" y="163" width="598" height="792" key="find.popup" timestamp="1600009126084">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
-    <state x="830" y="163" width="598" height="792" key="find.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1599480198387" />
+    <state x="830" y="163" width="598" height="792" key="find.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1600009126084" />
     <state x="1243" y="369" key="git4idea.ui.GitUnstashDialog" timestamp="1599442620706">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
@@ -473,12 +474,12 @@
     </state>
     <state x="1120" y="272" key="run.anything.popup/0.0.1951.1152@0.0.1951.1152" timestamp="1598697705041" />
     <state x="1136" y="272" key="run.anything.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1599396936087" />
-    <state x="1094" y="242" width="682" height="678" key="search.everywhere.popup" timestamp="1599490768533">
+    <state x="1094" y="242" width="682" height="678" key="search.everywhere.popup" timestamp="1600020372588">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="150" y="258" width="672" height="678" key="search.everywhere.popup/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599015960074" />
     <state x="1078" y="242" width="672" height="678" key="search.everywhere.popup/0.0.1951.1152@0.0.1951.1152" timestamp="1599130940281" />
-    <state x="1094" y="242" width="682" height="678" key="search.everywhere.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1599490768533" />
+    <state x="1094" y="242" width="682" height="678" key="search.everywhere.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1600020372588" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

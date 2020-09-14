@@ -1,27 +1,44 @@
 <template>
-<div class="collapseItem">
-  <div class="title" @click="showContent">
-    {{title}}
+  <div class="collapseItem">
+    <div class="title" @click="showContent">
+      {{ title }}
+    </div>
+    <div class="content" v-if="mySelected">
+      <slot></slot>
+    </div>
   </div>
-  <div class="content" v-if="selected"><slot></slot></div>
-</div>
 </template>
 
 <script>
+import Vue from 'vue'
+
 export default {
-  props:{
-    title:{
-      type:String,
-      required:true
-    }
+  props: {
+    title: {
+      type: String,
+      required: true
+    },
+    selectedTag: {
+      type: String
+    },
+    name: {type: String}
   },
-  data(){
-    return{
-      selected:false
-    }
+
+  data() {
+    return {mySelected: false}
   },
-  methods:{
-    showContent(){this.selected=!this.selected;}
+  inject: ['eventBus'],
+  methods: {
+    showContent() {
+      if (this.$parent.single===true){this.eventBus.$emit('update:selectedTag', this.name)
+
+      }else {this.mySelected=!this.mySelected}
+    },
+  },
+  mounted() {
+    if (this.$parent.single===true){
+      this.eventBus.$on('update:selectedTag', (selectedTag) => {
+        this.mySelected = selectedTag === this.name;})}
   }
 }
 
@@ -29,15 +46,24 @@ export default {
 
 <style lang="scss" scoped>
 .collapseItem {
+  .content {
+    margin-left: -1px;
+    border-bottom: 1px solid black;
+    padding-left: 1em;
 
-}
-  .content{
-    margin: 0px -1px;
+  }
+
+  .title {
+    padding-left: 0.5em;
+    margin-left: -1px;
+    margin-bottom: -1px;
     border-bottom: 1px solid black;
   }
-.title{
-  margin: 0px -1px;
-  border-bottom: 1px solid black;
+
+  &:last-child :last-child {
+    border-bottom: 0;
+  }
 
 }
+
 </style>

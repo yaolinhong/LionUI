@@ -39,13 +39,17 @@
 <body>
 <div id="app">
     <div class="collapse">
-        <g-collapse>
-            <g-collapse-item title="title1">111</g-collapse-item>
-            <g-collapse-item title="title2">222</g-collapse-item>
-            <g-collapse-item title="title3">333</g-collapse-item>
 
+        <g-collapse :selected-tag.sync="selectedTag">
+            <g-collapse-item title="title1" name="1">111</g-collapse-item>
+            <g-collapse-item title="title2" name="2">222</g-collapse-item>
+            <g-collapse-item title="title3" name="3">333</g-collapse-item>
         </g-collapse>
-
+        <g-collapse :selected-tag.sync="selectedTag" :single="true" >
+            <g-collapse-item title="title1" name="1">111</g-collapse-item>
+            <g-collapse-item title="title2" name="2">222</g-collapse-item>
+            <g-collapse-item title="title3" name="3">333</g-collapse-item>
+        </g-collapse>
     </div>
     <br>
     <br>

@@ -55,7 +55,8 @@ new Vue({
             loading2: false,
             loading3: false,
             message: "双向绑定示例信息",
-            selectedTab: 'sports'
+            selectedTab: 'sports',
+            selectedTag : '2',
         }
 
     },
