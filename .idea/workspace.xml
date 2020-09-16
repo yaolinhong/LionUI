@@ -23,7 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1c37966-d7e9-4866-840e-685caa734674" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lion.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -175,7 +174,7 @@
       <workItem from="1600225519740" duration="5368000" />
       <workItem from="1600231594231" duration="412000" />
       <workItem from="1600232020662" duration="616000" />
-      <workItem from="1600233122247" duration="1788000" />
+      <workItem from="1600233122247" duration="2406000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1598591260174</created>

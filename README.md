@@ -1,7 +1,8 @@
 [![Build Status](https://travis-ci.org/yaolh1995/LionUI.svg?branch=master)](https://travis-ci.org/yaolh1995/LionUI)
 
- ![alt lion-UI](./Lion.png)
-
+<div align=center>
+<img src="http://ylh1995.gitee.io/lion-ui-page/Lion.png">
+</div>   
 这是我在学习 Vue 过程中做的一个 UI 框架，希望对您有用。
 
 
