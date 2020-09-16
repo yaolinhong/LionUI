@@ -2,7 +2,7 @@
 home: true
 heroImage: /Lion.png
 actionText: 快速上手 →
-actionLink: /introduce/
+actionLink: /get-started/
 features:
 - title: 极简设计
   details: 极简化设计，注重内部功能实现。

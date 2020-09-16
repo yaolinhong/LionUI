@@ -6,6 +6,7 @@
 
 <script>
 export default {
+  name:'g-tabs-pane',
   inject:['eventBus'],
   data(){
     return {
@@ -33,7 +34,7 @@ export default {
 <style lang="scss" scoped>
 .tabs-pane {
   flex-shrink: 0;
-  padding: 0 2em;
+  padding: 1em 2em;
   &.active{
 
   }

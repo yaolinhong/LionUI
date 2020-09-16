@@ -6,6 +6,7 @@
 <script>
 import Vue from 'vue'
 export default {
+  name:'g-tabs',
   data() {
     return {
       eventBus: new Vue()
@@ -33,21 +34,18 @@ export default {
     this.$children.forEach((vm)=>{
       if (vm.$options.name==='g-tabs-head'){
         vm.$children.forEach((childvm)=>{
-          if (childvm.$options.name==='g-tabs-item'&& childvm.name===this.selected){}
-        this.eventBus.$emit('update:selected',this.selected,childvm)
+          if (childvm.$options.name==='g-tabs-items' && childvm.name===this.selected){
+            this.eventBus.$emit('update:selected',this.selected,childvm)
+
+          }
+
         })
 
       }
     })
 
   }
-  // created() {
-  // },
-  //methods:{
-  //   onUpdateSelectTab(){
-  //     this.$emit('update:selectTab','tabs')
-  //   }
-  // }
+
 }
 </script>
 

@@ -23,21 +23,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1c37966-d7e9-4866-840e-685caa734674" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/grid-demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/layout-demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/components/grid.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/components/layout.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/26/9fe345127c79352c0a409132b51598.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/50/b0589c748105bbdd5cd26d1769bb4e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/74/159f19e943e30be2bbe8e0522735e5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/91/e03b1dec1366d74f8fe6afaa4eaf86.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/d8/072094786650c01147ac7d371619aa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/.idea/components.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/collapse-demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/popover-demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/tabs-demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/toast-demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/components/collapse.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/components/popover.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/components/tabs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/components/toast.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/2f/34a12f02d9db720dc7fa7b319d8ed2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/4b/3f9dd9e01a0804c9073b084794f178.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/5b/5a78b73b7f7d15c687ac615ae347e5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/67/4391c6f1ab0f6a60ba5f1c0b698341.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/74/2d280683c42c577726de572fd73832.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/87/b9424129c2dcfab37677a2dea807d2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/e5/902421a4b31c7e062fe20e3a2e63f9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/f5/d259f0dd7d211b32b5199d5e28621f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/f7/b739aa2f6364d36d1282f2eb62d598.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/fe/636901fab00195a56872bbd6fcdce8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_9_7_21_24_[Default_Changelist]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_9_7_21_24__Default_Changelist_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/components/button-demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/components/button-demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/components/input-demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/components/input-demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/components/layout-demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/components/layout-demo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/components/button.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/components/button.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/components/input.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/components/input.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/components/layout.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/components/layout.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/get-started/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/get-started/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/install/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/install/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/introduce/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collapse-item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/collapse-item.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collapse.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/collapse.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/input.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/input.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/sider.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publish.sh" beforeDir="false" afterPath="$PROJECT_DIR$/publish.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/popover.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/popover.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tabs-body.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-body.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tabs-head.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-head.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tabs-items.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-items.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tabs-pane.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-pane.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toast.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/toast.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,26 +110,26 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.54" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/.vuepress/components" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="C:\JetBrains\WebStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\1\Desktop\LionUI\docs\.vuepress\components" />
+      <recent name="C:\Users\1\Desktop\LionUI\docs\components" />
+      <recent name="C:\Users\1\Desktop\LionUI\docs\.vuepress\public" />
+      <recent name="C:\Users\1\Desktop\LionUI\docs\heroImage" />
+      <recent name="C:\Users\1\Desktop\LionUI" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\1\Desktop\LionUI\docs\.vuepress\public" />
       <recent name="C:\Users\1\Desktop\LionUI\docs" />
       <recent name="C:\Users\1\Desktop\LionUI\docs\component" />
       <recent name="C:\Users\1\Desktop\LionUI" />
       <recent name="C:\Users\1\Desktop\LionUI\test" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\1\Desktop\LionUI\docs\components" />
-      <recent name="C:\Users\1\Desktop\LionUI\docs\.vuepress\components" />
-      <recent name="C:\Users\1\Desktop\LionUI\docs\.vuepress\public" />
-      <recent name="C:\Users\1\Desktop\LionUI\docs\heroImage" />
-      <recent name="C:\Users\1\Desktop\LionUI" />
     </key>
   </component>
   <component name="RunManager" selected="Karma.事件.支持 change/input/focus/blur 事件">
@@ -180,7 +215,14 @@
       <workItem from="1600005861399" duration="3364000" />
       <workItem from="1600010307757" duration="8935000" />
       <workItem from="1600051858324" duration="3311000" />
-      <workItem from="1600055955310" duration="12205000" />
+      <workItem from="1600055955310" duration="12369000" />
+      <workItem from="1600091693937" duration="9042000" />
+      <workItem from="1600145293459" duration="15783000" />
+      <workItem from="1600225393901" duration="116000" />
+      <workItem from="1600225519740" duration="5368000" />
+      <workItem from="1600231594231" duration="412000" />
+      <workItem from="1600232020662" duration="616000" />
+      <workItem from="1600233122247" duration="1037000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1598591260174</created>
@@ -379,12 +421,12 @@
     <state x="93" y="93" width="1766" height="966" key="DiffContextDialog/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599033984841" />
     <state x="93" y="93" width="1766" height="966" key="DiffContextDialog/0.0.1951.1152@0.0.1951.1152" timestamp="1599146421304" />
     <state x="94" y="93" width="1792" height="966" key="DiffContextDialog/0.0.1979.1152@0.0.1979.1152" timestamp="1599381095377" />
-    <state x="912" y="259" width="438" height="515" key="FileChooserDialogImpl" timestamp="1599384729928">
+    <state x="912" y="259" width="438" height="515" key="FileChooserDialogImpl" timestamp="1600230923871">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="899" y="259" key="FileChooserDialogImpl/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599026360658" />
     <state x="899" y="259" width="438" height="515" key="FileChooserDialogImpl/0.0.1951.1152@0.0.1951.1152" timestamp="1598796273058" />
-    <state x="912" y="259" key="FileChooserDialogImpl/0.0.1979.1152@0.0.1979.1152" timestamp="1599384729928" />
+    <state x="912" y="259" key="FileChooserDialogImpl/0.0.1979.1152@0.0.1979.1152" timestamp="1600230923871" />
     <state width="952" height="324" key="GridCell.Tab.0.bottom" timestamp="1599035261505">
       <screen x="0" y="0" width="1951" height="1152" />
     </state>
@@ -471,10 +513,10 @@
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="-6" y="0" width="1002" height="1158" key="dock-window-1/0.0.1979.1152@0.0.1979.1152" timestamp="1599208107334" />
-    <state x="830" y="163" width="598" height="792" key="find.popup" timestamp="1600009126084">
+    <state x="830" y="163" width="598" height="792" key="find.popup" timestamp="1600230616559">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
-    <state x="830" y="163" width="598" height="792" key="find.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1600009126084" />
+    <state x="830" y="163" width="598" height="792" key="find.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1600230616559" />
     <state x="1243" y="369" key="git4idea.ui.GitUnstashDialog" timestamp="1599442620706">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
@@ -484,12 +526,12 @@
     </state>
     <state x="1120" y="272" key="run.anything.popup/0.0.1951.1152@0.0.1951.1152" timestamp="1598697705041" />
     <state x="1136" y="272" key="run.anything.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1599396936087" />
-    <state x="1094" y="242" width="682" height="678" key="search.everywhere.popup" timestamp="1600020372588">
+    <state x="1094" y="242" width="682" height="678" key="search.everywhere.popup" timestamp="1600231966746">
       <screen x="0" y="0" width="1979" height="1152" />
     </state>
     <state x="150" y="258" width="672" height="678" key="search.everywhere.popup/0.0.1951.1152/2560.0.974.800@0.0.1951.1152" timestamp="1599015960074" />
     <state x="1078" y="242" width="672" height="678" key="search.everywhere.popup/0.0.1951.1152@0.0.1951.1152" timestamp="1599130940281" />
-    <state x="1094" y="242" width="682" height="678" key="search.everywhere.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1600020372588" />
+    <state x="1094" y="242" width="682" height="678" key="search.everywhere.popup/0.0.1979.1152@0.0.1979.1152" timestamp="1600231966746" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

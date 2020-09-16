@@ -7,6 +7,17 @@
     <g-footer>footer</g-footer>
   </g-layout>
     <br>
+    <g-layout style="height: 100vh;">
+      <g-header>header</g-header>
+      <g-layout style="height: 50vh;">
+        <g-sider>sider</g-sider>
+        <g-layout>
+          <g-content>sidercontent</g-content>
+          <g-footer>footer</g-footer>
+        </g-layout>
+      </g-layout>
+      <br>
+    </g-layout>
     有侧边栏（点击icon展示目录）
     <g-layout style="height: 100vh;">
       <g-header>header</g-header>
@@ -17,8 +28,6 @@
       <g-footer>footer</g-footer>
     </g-layout>
   </div>
-
-
 </template>
 
 <script>

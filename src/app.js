@@ -35,7 +35,7 @@ Vue.use(plugin)
 Vue.component('g-tabs',Tabs);
 Vue.component('g-tabs-head',TabsHead);
 Vue.component('g-tabs-body',TabsBody);
-Vue.component('g-tabs-item',TabsItem);
+Vue.component('g-tabs-items',TabsItem);
 Vue.component('g-tabs-pane',TabsPane);
 Vue.component('g-popover',Popover);
 Vue.component('g-collapse',Collapse);
@@ -60,8 +60,7 @@ new Vue({
         }
 
     },
-    created() {
-    },
+
     methods: {
         yyy(name){
             console.log('yy'+name)

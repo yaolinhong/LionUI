@@ -1,5 +1,6 @@
 <template>
-  <div class="tabs-item" @click="onclick" :class="classes" :data-name="name">
+  <div class="tabs-item" @click="onclick" :class="classes"
+       :data-name="name">
     <g-icon class="icon" v-if="icon" :name="icon"></g-icon>
     <slot></slot>
 
@@ -11,6 +12,7 @@
 import Icon from "./icon.vue"
 
 export default {
+  name: 'g-tabs-items',
   data() {
     return {
       active: false
@@ -62,7 +64,7 @@ $disabled-text-color:grey;
 .tabs-item {
   flex-shrink: 0;
   height: 100%;
-  padding: 0 2em;
+  padding: 0 1em;
   cursor:pointer;
   display: flex;
   justify-content: flex-start;

@@ -1,22 +1,15 @@
 module.exports = {
+    base:'/lion-ui-page/',
     title: 'Lion UI',
     description: '一个好用的UI框架',
     themeConfig: {
         nav: [
             {text: '主页', link: '/'},
-            {text: '欢迎 Star', link: ''},
-            {text: '交流', link: 'https://google.com'},
+            {text: '欢迎 Star', link: 'https://github.com/yaolh1995/LionUI'},
+            {text: '交流', link: 'https://github.com/yaolh1995/LionUI/issues'},
         ],
         sidebar: [
             {
-                title: '介绍',
-                collapsable: false,
-                children: [
-                    '/introduce/',
-                ]
-            },
-            {
-
                 title: '入门',
                 collapsable: false,
                 children: [
@@ -32,6 +25,10 @@ module.exports = {
                     '/components/input',
                     '/components/grid',
                     '/components/layout',
+                    '/components/tabs',
+                    '/components/toast',
+                    '/components/popover',
+                    '/components/collapse',
 
                 ]
             }

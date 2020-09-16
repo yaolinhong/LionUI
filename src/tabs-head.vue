@@ -2,7 +2,6 @@
   <div class="tabs-head">
     <slot></slot>
     <div class="line" ref="line"></div>
-
     <div class="actions-wrapper">
       <slot name="actions"></slot>
     </div>
@@ -11,6 +10,7 @@
 
 <script>
 export default {
+  name:'g-tabs-head',
   inject: ['eventBus'],
   data() {
     return {
@@ -23,9 +23,10 @@ export default {
         (selectedTab, vm) => {
           //新增一个[更新UI任务]到队列里面，把代码放到更新UI任务后面；
           this.$nextTick(() => {
-            let {width, height, top, left} = vm.$el.getBoundingClientRect()
+            let {width,left,top,height} = vm.$el.getBoundingClientRect()
             this.$refs.line.style.width = `${width}px`
-            this.$refs.line.style.left = `${left}px`
+            this.$refs.line.style.left = window.scrollX + left +'px'
+            this.$refs.line.style.top= height+ window.scrollY+top+'px'
           })
 
         }
@@ -50,7 +51,6 @@ $blue: blue;
   height: $tab-height;
   justify-content: flex-start;
   align-items: center;
-  position: relative;
   border-bottom: 1px solid #999999;
 
   > .actions-wrapper {
@@ -58,14 +58,13 @@ $blue: blue;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 2em;
   }
-
   > .line {
     position: absolute;
-    bottom: 0;
-    border-bottom: 1px solid $blue;
+    height: 0;
+    border-bottom: 2px solid $blue;
     transition: all 0.5s;
+    z-index: 1;
   }
 }
 </style>

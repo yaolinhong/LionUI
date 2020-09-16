@@ -4,15 +4,14 @@
          :class="{[`position-${position}`]:true}">
       <slot name="content" :close="close"></slot>
     </div>
-    <span ref="triggerWrapper" style="display: inline-block;">
-      <slot></slot>
-    </span>
-  </div>
+    <span ref="triggerWrapper" style="display:inline-block">
+            <slot></slot>
+        </span> </div>
 </template>
 
 <script>
 export default {
-  name: "GuluPopover",
+  name: "g-popover",
   props: {
     position: {
       type: String,
@@ -121,7 +120,7 @@ $border-radius: 4px;
   filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.5));
   background: white;
   padding: .5em 1em;
-  max-width: 20em;
+  max-width: 18em;
   word-break: break-all;
   &::before, &::after {
     content: '';
@@ -149,17 +148,17 @@ $border-radius: 4px;
     }
   }
   &.position-bottom {
+    position: absolute;
     margin-top: 10px;
     &::before, &::after {
       left: 10px;
+      border-top: none;
     }
     &::before {
-      border-top: none;
       border-bottom-color: black;
       bottom: 100%;
     }
     &::after {
-      border-top: none;
       border-bottom-color: white;
       bottom: calc(100% - 1px);
     }

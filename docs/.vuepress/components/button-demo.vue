@@ -5,6 +5,7 @@
     <g-button :loading="loading"  icon="setting"
               @click="loading=!loading">加载按钮
     </g-button>
+    <br>
     <g-button-group>
       <g-button class="left" icon="left" icon-position="left">上一页</g-button>
       <g-button>更多</g-button>
@@ -41,6 +42,7 @@ export default {
   box-sizing: border-box;
 }
 .wrapper {
+  vertical-align: middle;
 > .g-button{
   margin-bottom: 10px}
 }

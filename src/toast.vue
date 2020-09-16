@@ -103,6 +103,7 @@ $toast-bg:rgba(0,0,0,0.75);
   $animation-duration: 300ms;
   &.position-top {
     top: 0;
+    z-index: 20;
     .toast {
       border-top-left-radius: 0;
       border-top-right-radius: 0;
