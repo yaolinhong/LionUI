@@ -1,4 +1,7 @@
 [![Build Status](https://travis-ci.org/yaolh1995/LionUI.svg?branch=master)](https://travis-ci.org/yaolh1995/LionUI)
+
+ ![alt lion-UI](./Lion.png)
+
 这是我在学习 Vue 过程中做的一个 UI 框架，希望对您有用。
 
 
